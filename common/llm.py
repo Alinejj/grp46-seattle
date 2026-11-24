@@ -42,6 +42,9 @@ MIN_GAP_SECONDS = 1.0
 _last_call_time = {}          # provider -> time of last real API call
 fallback_events = []          # records every time Groq failed and we used OpenRouter
 
+stats = {"api_calls": 0, "cache_hits": 0}   # Task 7 reads and resets these per request
+READ_CACHE = True                           # Task 7 --fresh sets this False to force real calls
+
 
 def _get_key(provider):
     key = os.getenv(PROVIDERS[provider]["key_env"])
@@ -109,10 +112,12 @@ def chat(system, user, provider="groq", use_cache=True):
     model = PROVIDERS[provider]["model"]
     path = _cache_path(provider, model, system, user)
 
-    if use_cache and path.exists():
+    if use_cache and READ_CACHE and path.exists():
+        stats["cache_hits"] += 1
         return json.loads(path.read_text(encoding="utf-8"))["reply"]
 
     _throttle(provider)
+    stats["api_calls"] += 1
     try:
         if provider == "gemini":
             reply = _call_gemini(system, user)
@@ -130,7 +135,7 @@ def chat(system, user, provider="groq", use_cache=True):
 
     if not reply or not reply.strip():
         raise RuntimeError(f"{provider} returned an empty reply (likely hit the token limit)")
-    
+
     path.write_text(json.dumps({
         "provider": provider,
         "model": model,

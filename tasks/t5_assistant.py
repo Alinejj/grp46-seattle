@@ -4,6 +4,7 @@ Member 4's Streamlit app calls respond(message, state) on every chat message.
 Run from the repo root to chat in the terminal:  python -m tasks.t5_assistant
 """
 import json
+import re
 from datetime import date, timedelta
 
 from common.llm import chat_json
@@ -48,7 +49,7 @@ Return one JSON object only, with exactly these keys:
 - city: the city the user names, or null if they name none.
 - check_in: check-in date as YYYY-MM-DD, or null. Resolve relative dates ("next weekend", "12 March") from today's date to the next future date.
 - nights: whole number, or null.
-- guests: whole number, or null ("two adults" = 2).
+- guests: whole number, or null ("two adults" = 2, "two of us" = 2, "me and my partner" = 2, "just me" = 1).
 - max_price_per_night: number in US dollars, or null.
 - month: number 1-12 if the user names or implies a month, or null.
 - preferences: list of short strings for wishes such as "museums" or "quiet area", or [].
@@ -77,7 +78,7 @@ def _whole_number(value, low, high):
     return int(number) if number == int(number) and low <= number <= high else None
 
 
-def clean(raw, today):
+def clean(raw, today, message=""):
     """Validate every field in code. A bad value becomes None (so we ask for it) plus a note saying why."""
     notes = []
     req = {}
@@ -92,6 +93,15 @@ def clean(raw, today):
     if raw.get("check_in"):
         try:
             d = date.fromisoformat(str(raw["check_in"]))
+            # "May 3" with no year sometimes comes back as this year's (already past) date:
+            # move it to next year if the user didn't type a year and it then fits the window
+            if d <= today and not re.search(r"\b20\d\d\b", message):
+                try:
+                    next_year = d.replace(year=d.year + 1)
+                    if today < next_year <= today + timedelta(days=MAX_DAYS_AHEAD):
+                        d = next_year
+                except ValueError:          # 29 February
+                    pass
             if d <= today:
                 notes.append("The check-in date has to be in the future.")
             elif d > today + timedelta(days=MAX_DAYS_AHEAD):
@@ -128,6 +138,7 @@ def respond(message, state=None, today=None):
     """One chat turn. Returns (reply, new_state, sources).
 
     state["collected"] holds the details gathered so far; the app keeps it in st.session_state.
+    state["last_behaviour"] says what this turn did: answer, follow_up, decline, help or error.
     """
     today = today or date.today()
     state = dict(state or {})
@@ -136,13 +147,17 @@ def respond(message, state=None, today=None):
     try:
         raw = extract(message, collected, today)
     except (ValueError, RuntimeError):
+        state["last_behaviour"] = "error"
         return ("Sorry, I couldn't understand that. Could you rephrase it?", state, [])
 
-    request, notes = clean(raw, today)
+    request, notes = clean(raw, today, message)
 
-    # A message that only supplies details continues the earlier request
+    # A message that only supplies details continues the earlier request.
+    # With no earlier request, hotel details (dates, nights, guests, budget) mean a hotel search.
     if request["intent"] == "follow_up":
-        request["intent"] = collected.get("intent")
+        hotel_details = any(request[f] is not None
+                            for f in ("check_in", "nights", "guests", "max_price_per_night"))
+        request["intent"] = collected.get("intent") or ("hotels" if hotel_details else None)
 
     # Merge: a new value replaces an old one; a missing value keeps the old one
     merged = dict(collected)
@@ -156,10 +171,13 @@ def respond(message, state=None, today=None):
 
     # Decline other cities and topics we don't cover (earlier details stay untouched)
     if request["intent"] == "out_of_scope":
+        state["last_behaviour"] = "decline"
         return (DECLINE.format(reason="That request is outside what I cover."), state, [])
     if request["city"] and CITY.lower() not in request["city"].lower():
+        state["last_behaviour"] = "decline"
         return (DECLINE.format(reason=f"I don't have data for {request['city']}."), state, [])
     if merged.get("intent") is None:
+        state["last_behaviour"] = "help"
         return (HELP, state, [])
 
     merged["city"] = CITY
@@ -169,6 +187,7 @@ def respond(message, state=None, today=None):
 
     if missing:
         state["pending"] = missing
+        state["last_behaviour"] = "follow_up"
         lines = notes + [f"To {INTENT_LABELS[intent]}, I need a bit more:"]
         lines += [f"- {QUESTIONS[f]}" for f in missing]
         if intent == "hotels" and "book" in message.lower():
@@ -176,6 +195,7 @@ def respond(message, state=None, today=None):
         return ("\n".join(lines), state, [])
 
     state["pending"] = []
+    state["last_behaviour"] = "answer"
     return run_request(intent, merged, state)
 
 
