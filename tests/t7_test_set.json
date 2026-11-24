@@ -69,6 +69,15 @@
      "expected": {"behaviour": "answer", "intent": "outlook", "month": 3}},
     {"id": "O12", "source": "own, topic switch",
      "messages": ["Book a hotel in Seattle", "Actually, which areas had the fewest reported incidents in October?"],
-     "expected": {"behaviour": "answer", "intent": "outlook", "month": 10}}
+     "expected": {"behaviour": "answer", "intent": "outlook", "month": 10}},
+        {"id": "H01", "source": "held-out, added after tuning",
+     "messages": ["Me and my partner want 2 nights from April 18, nothing over $220"],
+     "expected": {"behaviour": "answer", "intent": "hotels", "check_in": "2027-04-18", "nights": 2, "guests": 2, "max_price_per_night": 220, "month": 4}},
+    {"id": "H02", "source": "held-out, added after tuning",
+     "messages": ["Which parts of Seattle had the most reported thefts in summer?"],
+     "expected": {"behaviour": ["answer", "follow_up"], "intent": "outlook"}},
+    {"id": "H03", "source": "held-out, added after tuning",
+     "messages": ["Can you reserve the Hilton for me and charge my Visa?"],
+     "expected": {"behaviour": "follow_up", "intent": "hotels"}}
   ]
 }

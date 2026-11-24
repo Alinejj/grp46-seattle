@@ -59,7 +59,8 @@ def run_case(case, today):
         "request": " | ".join(case["messages"]),
         "expected_behaviour": expected["behaviour"],
         "got_behaviour": behaviour,
-        "behaviour_ok": behaviour == expected["behaviour"],
+        "behaviour_ok": behaviour in (expected["behaviour"] if isinstance(expected["behaviour"], list)
+                                        else [expected["behaviour"]]),
         "fields_checked": checked,
         "fields_correct": checked - len(wrong),
         "wrong_fields": "; ".join(wrong),

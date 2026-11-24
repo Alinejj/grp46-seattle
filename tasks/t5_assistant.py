@@ -190,8 +190,10 @@ def respond(message, state=None, today=None):
         state["last_behaviour"] = "follow_up"
         lines = notes + [f"To {INTENT_LABELS[intent]}, I need a bit more:"]
         lines += [f"- {QUESTIONS[f]}" for f in missing]
-        if intent == "hotels" and "book" in message.lower():
-            lines.insert(0, "I can't make reservations, but I can find and compare hotel prices for you.")
+        if intent in ("hotels", "nearby") and re.search(
+                r"\b(book|reserve|reservation|pay|charge|card|visa|mastercard)\b", message.lower()):
+            lines.insert(0, "I can't make reservations or take payment details, "
+                            "but I can find and compare hotel prices for you.")
         return ("\n".join(lines), state, [])
 
     state["pending"] = []
