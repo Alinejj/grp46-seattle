@@ -1,13 +1,16 @@
-"""Task 5 assistant logic: understand the request, ask when unsure, decline what we don't cover.
+"""Task 5 assistant: understand the request, ask when unsure, decline what we don't cover,
+and answer from the task results with every number checked.
 
 Member 4's Streamlit app calls respond(message, state) on every chat message.
 Run from the repo root to chat in the terminal:  python -m tasks.t5_assistant
 """
+import importlib
 import json
 import re
 from datetime import date, timedelta
 
-from common.llm import chat_json
+from common.llm import chat, chat_json
+from common.numcheck import check
 
 CITY = "Seattle"
 MAX_DAYS_AHEAD = 330          # hotel prices only exist for dates that can still be booked (~11 months)
@@ -61,6 +64,8 @@ Rules:
 EXTRACT_KEYS = ["intent", "city", "check_in", "nights", "guests",
                 "max_price_per_night", "month", "preferences", "hotel_name"]
 
+
+#  understanding the request 
 
 def extract(message, collected, today):
     user = (f"Collected so far: {json.dumps(collected)}\n"
@@ -137,11 +142,13 @@ def clean(raw, today, message=""):
 def respond(message, state=None, today=None):
     """One chat turn. Returns (reply, new_state, sources).
 
-    state["collected"] holds the details gathered so far; the app keeps it in st.session_state.
-    state["last_behaviour"] says what this turn did: answer, follow_up, decline, help or error.
+    state["collected"]      details gathered so far; the app keeps state in st.session_state
+    state["last_behaviour"] what this turn did: answer, follow_up, decline, help or error
+    state["last_result"]    for answers: the tables shown and the number-check outcome
     """
     today = today or date.today()
     state = dict(state or {})
+    state.pop("last_result", None)
     collected = dict(state.get("collected", {}))
 
     try:
@@ -198,13 +205,151 @@ def respond(message, state=None, today=None):
 
     state["pending"] = []
     state["last_behaviour"] = "answer"
-    return run_request(intent, merged, state)
+    return answer(message, intent, merged, state)
 
 
-def run_request(intent, request, state):
-    """Placeholder until the task functions exist: shows what would be called."""
-    args = {k: v for k, v in request.items() if k != "intent" and v not in (None, [])}
-    return f"[ready] would run {intent} with {json.dumps(args)}", state, []
+#  answering from the task results 
+
+INCIDENT_SOURCE = "Reported incidents: Seattle Police Department crime data (data.seattle.gov), 2022-2024"
+OSM_SOURCE = "Places: © OpenStreetMap contributors (ODbL), via the Overpass API"
+TEMP_SOURCE = "Temperatures: city_temperature.csv (Homework 2 and 4), 2020-2024"
+MAX_ROWS_SENT = 15            # keep the prompt small
+
+ANSWER_SYSTEM = """You are SafeStay, a trip-planning assistant for Seattle. Answer the traveller's request in under 150 words, using ONLY the data provided.
+Rules:
+- Every number you write must appear in the data. You may round a number to fewer decimals, but never calculate a new one (no differences, sums, percentages or averages of your own).
+- Write numbers as digits, never as words.
+- Say "reported incidents", never "danger", "dangerous", "safe" or "safety". Reported incidents are not the same as risk to a visitor.
+- If hotel prices are included, say when they were retrieved and whether they are live or cached.
+- If the data cannot answer part of the request, say so instead of guessing.
+- You cannot make reservations or take payments; you only find and compare prices.
+- Plain text, no tables."""
+
+
+def _task(module, name):
+    """The teammate's real function if it exists yet, otherwise the stub. Returns (function, is_stub)."""
+    try:
+        return getattr(importlib.import_module(f"tasks.{module}"), name), False
+    except (ImportError, AttributeError):
+        return getattr(importlib.import_module("tasks.stubs"), name), True
+
+
+def _price_source(meta):
+    when = meta.get("retrieved_at", "unknown time")
+    if meta.get("source") == "live":
+        return f"Hotel prices: Xotelo, retrieved live at {when}"
+    age = meta.get("age_hours")
+    age_text = f", {age:.1f} hours old" if isinstance(age, (int, float)) else ""
+    return f"Hotel prices: Xotelo, cached copy retrieved at {when}{age_text}"
+
+
+def run_task(intent, req):
+    """Run the task code for one request. Returns (tables, sources, context, used_stub)."""
+    used_stub = False
+    context = {"data_period": "2022-2024"}
+
+    if intent == "outlook":
+        fn, used_stub = _task("t2_outlook", "outlook")
+        tables = {"neighbourhood_outlook": fn(req["month"])}
+        sources = [INCIDENT_SOURCE]
+        context["list_size"] = 5
+
+    elif intent == "hotels":
+        fn, used_stub = _task("t4_hotels", "search")
+        hotels, meta = fn(req["check_in"], req["nights"], req["guests"], req["max_price_per_night"], live=False)
+        tables = {"hotels_within_budget": hotels}
+        sources = [_price_source(meta), INCIDENT_SOURCE]
+        context.update(prices=meta)
+
+    elif intent == "nearby":
+        fn, used_stub = _task("t4_hotels", "nearby_by_name")
+        hotels, meta = fn(req["hotel_name"], req["check_in"], req["nights"], req["guests"])
+        tables = {"hotels_within_2_km": hotels}
+        sources = [_price_source(meta)]
+        context.update(prices=meta, radius_km=2)
+
+    elif intent == "best_month":
+        fn, used_stub = _task("t6_best_months", "best_months")
+        tables = {"months_ranked": fn()}
+        sources = [TEMP_SOURCE, INCIDENT_SOURCE]
+        context.update(comfortable_temp_f=70, temperature_period="2020-2024", recommend_top=3)
+
+    elif intent == "places":
+        fn, used_stub = _task("t8_places", "places")
+        attractions, neighbourhoods = fn(req["month"], req.get("max_price_per_night"))
+        tables = {"top_attractions": attractions, "top_neighbourhoods": neighbourhoods}
+        sources = [OSM_SOURCE, INCIDENT_SOURCE]
+        context.update(top_attractions=10, top_neighbourhoods=5, hotel_radius_km=1)
+    else:
+        raise ValueError(f"unknown intent {intent}")
+
+    if used_stub:
+        sources.insert(0, "STUB DATA: placeholder numbers until the real task code is in")
+    return tables, sources, context, used_stub
+
+
+def _data_text(details, context, tables):
+    parts = [f"Request details: {json.dumps(details)}", f"Context: {json.dumps(context)}"]
+    for name, df in tables.items():
+        parts.append(f"### {name}\n{df.head(MAX_ROWS_SENT).to_csv(index=False)}")
+    return "\n\n".join(parts)
+
+
+def _table_text(tables):
+    """Fallback reply: the results as plain text tables."""
+    return "\n\n".join(f"{name}:\n{df.head(MAX_ROWS_SENT).to_string(index=False)}"
+                       for name, df in tables.items())
+
+
+def answer(message, intent, req, state):
+    """Run the task, have the LLM write the answer, and only show it if every number checks out."""
+    details = {k: v for k, v in req.items() if k not in ("intent", "hotel_name") and v not in (None, [])}
+    if req.get("hotel_name"):
+        details["hotel_name"] = req["hotel_name"]
+
+    try:
+        tables, sources, context, used_stub = run_task(intent, req)
+    except Exception as err:                       # a task failed: say so instead of crashing the chat
+        state["last_result"] = {"intent": intent, "number_check": "task_error", "error": str(err)[:200]}
+        return (f"Sorry, I couldn't get the results for that right now ({type(err).__name__}).", state, [])
+
+    data = _data_text(details, context, tables)
+    # Everything we sent is allowed in the answer: table rows, the request details and the context
+    sent_rows = [details, context] + [r for df in tables.values()
+                                      for r in df.head(MAX_ROWS_SENT).to_dict("records")]
+    if "prices" in context:
+        sent_rows.append(context["prices"])
+        sent_rows += [list(df.columns) for df in tables.values()]   # column names were sent too (e.g. "in_top5_...")
+
+    user = f'Traveller\'s request: "{message}"\n\n{data}'
+    reply, status, bad = None, "fail", []
+    try:
+        draft = chat(ANSWER_SYSTEM, user)
+        passed, bad = check(draft, sent_rows)
+        if passed:
+            reply, status = draft, "pass"
+        else:
+            retry_user = (f"{user}\n\nYour previous answer used numbers that are not in the data: "
+                          f"{', '.join(bad)}. Rewrite it using only numbers that appear in the data.")
+            draft = chat(ANSWER_SYSTEM, retry_user)
+            passed, bad = check(draft, sent_rows)
+            if passed:
+                reply, status = draft, "pass_after_retry"
+    except Exception:                              # LLM unavailable: fall through to the table
+        pass
+
+    if reply is None:
+        reply = ("I couldn't write a summary where every number matched the data, "
+                 "so here are the results directly:\n\n" + _table_text(tables))
+
+    state["last_result"] = {
+        "intent": intent,
+        "number_check": status,
+        "bad_numbers": bad if status == "fail" else [],
+        "used_stub": used_stub,
+        "tables": {name: df.to_dict("records") for name, df in tables.items()},
+    }
+    return reply, state, sources
 
 
 if __name__ == "__main__":
@@ -220,3 +365,5 @@ if __name__ == "__main__":
             continue
         reply, state, sources = respond(message, state)
         print(f"assistant> {reply}")
+        for source in sources:
+            print(f"  source: {source}")

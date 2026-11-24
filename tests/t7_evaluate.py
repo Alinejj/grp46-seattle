@@ -64,7 +64,8 @@ def run_case(case, today):
         "fields_checked": checked,
         "fields_correct": checked - len(wrong),
         "wrong_fields": "; ".join(wrong),
-        "number_check": "",                     # filled in once answers are real (Task 5 answer step)
+        "number_check": state.get("last_result", {}).get("number_check", ""),
+        "bad_numbers": ", ".join(state.get("last_result", {}).get("bad_numbers", [])),
         "seconds": round(seconds, 2),
         "api_calls": llm.stats["api_calls"],
         "cache_hits": llm.stats["cache_hits"],
@@ -84,6 +85,9 @@ def summarise(rows):
     follow = [r for r in rows if r["expected_behaviour"] == "follow_up"]
     decline = [r for r in rows if r["expected_behaviour"] == "decline"]
     answer = [r for r in rows if r["expected_behaviour"] == "answer"]
+    checked_answers = [r for r in rows if r["number_check"] in ("pass", "pass_after_retry", "fail")]
+    passed_answers = [r for r in checked_answers if r["number_check"] in ("pass", "pass_after_retry")]
+    first_try = [r for r in checked_answers if r["number_check"] == "pass"]
     lines = [
         f"Requests:                      {n}",
         f"Fields correct:                {correct}/{checked} ({100 * correct / checked:.1f}%)",
@@ -92,6 +96,8 @@ def summarise(rows):
         f"  asked a follow-up correctly: {rate(follow)}",
         f"  declined correctly:          {rate(decline)}",
         f"  answered when it should:     {rate(answer)}",
+        f"Answers passing number check:  {len(passed_answers)}/{len(checked_answers)}"
+        f" ({len(first_try)} on the first try)",
         f"Mean seconds per request:      {sum(r['seconds'] for r in rows) / n:.2f}",
         f"Mean API calls per request:    {sum(r['api_calls'] for r in rows) / n:.2f}",
     ]
