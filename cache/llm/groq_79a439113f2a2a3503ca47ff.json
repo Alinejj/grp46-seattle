@@ -1,0 +1,8 @@
+{
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "system": "You are terse.",
+  "user": "Say hi in exactly 3 words.",
+  "reply": "Hello there friend",
+  "retrieved_at": "2026-11-24T21:58:20.933694+00:00"
+}

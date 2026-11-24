@@ -1,0 +1,8 @@
+{
+  "provider": "groq",
+  "model": "openai/gpt-oss-120b",
+  "system": "Return only JSON.",
+  "user": "Extract fields from: \"Seattle, 3 nights from 2027-07-10, 2 adults, under $180 a night\". Keys: city, check_in, nights, guests, max_price_per_night.",
+  "reply": "{\n  \"city\": \"Seattle\",\n  \"check_in\": \"2027-07-10\",\n  \"nights\": 3,\n  \"guests\": 2,\n  \"max_price_per_night\": 180\n}",
+  "retrieved_at": "2026-11-24T22:02:50.098630+00:00"
+}

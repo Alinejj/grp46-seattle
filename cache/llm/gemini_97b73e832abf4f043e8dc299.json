@@ -1,0 +1,8 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "system": "You are terse.",
+  "user": "Say hi in exactly 3 words.",
+  "reply": "Hello to you.",
+  "retrieved_at": "2026-11-24T22:02:48.677641+00:00"
+}

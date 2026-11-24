@@ -1,0 +1,310 @@
+{
+  "url": "https://data.seattle.gov/resource/tazs-3rd5.json?%24select=neighborhood%2C+count%28%2A%29+AS+n&%24where=offense_date+between+%272022-01-01T00%3A00%3A00%27+and+%272024-12-31T23%3A59%3A59%27&%24group=neighborhood&%24order=neighborhood&%24limit=500",
+  "retrieved_at": "2026-11-24T22:07:35.290417+00:00",
+  "raw": [
+    {
+      "neighborhood": "-",
+      "n": "347"
+    },
+    {
+      "neighborhood": "ALASKA JUNCTION",
+      "n": "4494"
+    },
+    {
+      "neighborhood": "ALKI",
+      "n": "1413"
+    },
+    {
+      "neighborhood": "BALLARD NORTH",
+      "n": "4170"
+    },
+    {
+      "neighborhood": "BALLARD SOUTH",
+      "n": "9093"
+    },
+    {
+      "neighborhood": "BELLTOWN",
+      "n": "5912"
+    },
+    {
+      "neighborhood": "BITTERLAKE",
+      "n": "5594"
+    },
+    {
+      "neighborhood": "BRIGHTON/DUNLAP",
+      "n": "3255"
+    },
+    {
+      "neighborhood": "CAPITOL HILL",
+      "n": "16577"
+    },
+    {
+      "neighborhood": "CENTRAL AREA/SQUIRE PARK",
+      "n": "7011"
+    },
+    {
+      "neighborhood": "CHINATOWN/INTERNATIONAL DISTRICT",
+      "n": "7750"
+    },
+    {
+      "neighborhood": "CLAREMONT/RAINIER VISTA",
+      "n": "1886"
+    },
+    {
+      "neighborhood": "COLUMBIA CITY",
+      "n": "1554"
+    },
+    {
+      "neighborhood": "COMMERCIAL DUWAMISH",
+      "n": "211"
+    },
+    {
+      "neighborhood": "COMMERCIAL HARBOR ISLAND",
+      "n": "127"
+    },
+    {
+      "neighborhood": "DOWNTOWN COMMERCIAL",
+      "n": "15139"
+    },
+    {
+      "neighborhood": "EASTLAKE - EAST",
+      "n": "411"
+    },
+    {
+      "neighborhood": "EASTLAKE - WEST",
+      "n": "1738"
+    },
+    {
+      "neighborhood": "FAUNTLEROY SW",
+      "n": "858"
+    },
+    {
+      "neighborhood": "FIRST HILL",
+      "n": "9174"
+    },
+    {
+      "neighborhood": "FREMONT",
+      "n": "4448"
+    },
+    {
+      "neighborhood": "GENESEE",
+      "n": "912"
+    },
+    {
+      "neighborhood": "GEORGETOWN",
+      "n": "3683"
+    },
+    {
+      "neighborhood": "GREENWOOD",
+      "n": "4799"
+    },
+    {
+      "neighborhood": "HIGHLAND PARK",
+      "n": "2689"
+    },
+    {
+      "neighborhood": "HIGH POINT",
+      "n": "2070"
+    },
+    {
+      "neighborhood": "HILLMAN CITY",
+      "n": "1063"
+    },
+    {
+      "neighborhood": "JUDKINS PARK/NORTH BEACON HILL",
+      "n": "3265"
+    },
+    {
+      "neighborhood": "LAKECITY",
+      "n": "6809"
+    },
+    {
+      "neighborhood": "LAKEWOOD/SEWARD PARK",
+      "n": "1074"
+    },
+    {
+      "neighborhood": "MADISON PARK",
+      "n": "822"
+    },
+    {
+      "neighborhood": "MADRONA/LESCHI",
+      "n": "3759"
+    },
+    {
+      "neighborhood": "MAGNOLIA",
+      "n": "3690"
+    },
+    {
+      "neighborhood": "MID BEACON HILL",
+      "n": "2306"
+    },
+    {
+      "neighborhood": "MILLER PARK",
+      "n": "1791"
+    },
+    {
+      "neighborhood": "MONTLAKE/PORTAGE BAY",
+      "n": "1555"
+    },
+    {
+      "neighborhood": "MORGAN",
+      "n": "2229"
+    },
+    {
+      "neighborhood": "MOUNT BAKER",
+      "n": "4485"
+    },
+    {
+      "neighborhood": "NEW HOLLY",
+      "n": "1747"
+    },
+    {
+      "neighborhood": "NORTH ADMIRAL",
+      "n": "2561"
+    },
+    {
+      "neighborhood": "NORTH BEACON HILL",
+      "n": "5326"
+    },
+    {
+      "neighborhood": "NORTH DELRIDGE",
+      "n": "1971"
+    },
+    {
+      "neighborhood": "NORTHGATE",
+      "n": "13437"
+    },
+    {
+      "neighborhood": "OOJ",
+      "n": "16"
+    },
+    {
+      "neighborhood": "PHINNEY RIDGE",
+      "n": "1628"
+    },
+    {
+      "neighborhood": "PIGEON POINT",
+      "n": "298"
+    },
+    {
+      "neighborhood": "PIONEER SQUARE",
+      "n": "3579"
+    },
+    {
+      "neighborhood": "QUEEN ANNE",
+      "n": "13499"
+    },
+    {
+      "neighborhood": "RAINIER BEACH",
+      "n": "2963"
+    },
+    {
+      "neighborhood": "RAINIER VIEW",
+      "n": "1672"
+    },
+    {
+      "neighborhood": "ROOSEVELT/RAVENNA",
+      "n": "9672"
+    },
+    {
+      "neighborhood": "ROXHILL/WESTWOOD/ARBOR HEIGHTS",
+      "n": "4347"
+    },
+    {
+      "neighborhood": "SANDPOINT",
+      "n": "5770"
+    },
+    {
+      "neighborhood": "SLU/CASCADE",
+      "n": "11487"
+    },
+    {
+      "neighborhood": "SODO",
+      "n": "4988"
+    },
+    {
+      "neighborhood": "SOUTH BEACON HILL",
+      "n": "874"
+    },
+    {
+      "neighborhood": "SOUTH DELRIDGE",
+      "n": "1088"
+    },
+    {
+      "neighborhood": "SOUTH PARK",
+      "n": "1673"
+    },
+    {
+      "neighborhood": "UNIVERSITY",
+      "n": "10736"
+    },
+    {
+      "neighborhood": "UNKNOWN",
+      "n": "1980"
+    },
+    {
+      "neighborhood": "WALLINGFORD",
+      "n": "4168"
+    }
+  ],
+  "neighbourhoods": [
+    "ALASKA JUNCTION",
+    "ALKI",
+    "BALLARD NORTH",
+    "BALLARD SOUTH",
+    "BELLTOWN",
+    "BITTERLAKE",
+    "BRIGHTON/DUNLAP",
+    "CAPITOL HILL",
+    "CENTRAL AREA/SQUIRE PARK",
+    "CHINATOWN/INTERNATIONAL DISTRICT",
+    "CLAREMONT/RAINIER VISTA",
+    "COLUMBIA CITY",
+    "COMMERCIAL DUWAMISH",
+    "COMMERCIAL HARBOR ISLAND",
+    "DOWNTOWN COMMERCIAL",
+    "EASTLAKE - EAST",
+    "EASTLAKE - WEST",
+    "FAUNTLEROY SW",
+    "FIRST HILL",
+    "FREMONT",
+    "GENESEE",
+    "GEORGETOWN",
+    "GREENWOOD",
+    "HIGH POINT",
+    "HIGHLAND PARK",
+    "HILLMAN CITY",
+    "JUDKINS PARK/NORTH BEACON HILL",
+    "LAKECITY",
+    "LAKEWOOD/SEWARD PARK",
+    "MADISON PARK",
+    "MADRONA/LESCHI",
+    "MAGNOLIA",
+    "MID BEACON HILL",
+    "MILLER PARK",
+    "MONTLAKE/PORTAGE BAY",
+    "MORGAN",
+    "MOUNT BAKER",
+    "NEW HOLLY",
+    "NORTH ADMIRAL",
+    "NORTH BEACON HILL",
+    "NORTH DELRIDGE",
+    "NORTHGATE",
+    "PHINNEY RIDGE",
+    "PIGEON POINT",
+    "PIONEER SQUARE",
+    "QUEEN ANNE",
+    "RAINIER BEACH",
+    "RAINIER VIEW",
+    "ROOSEVELT/RAVENNA",
+    "ROXHILL/WESTWOOD/ARBOR HEIGHTS",
+    "SANDPOINT",
+    "SLU/CASCADE",
+    "SODO",
+    "SOUTH BEACON HILL",
+    "SOUTH DELRIDGE",
+    "SOUTH PARK",
+    "UNIVERSITY",
+    "WALLINGFORD"
+  ]
+}

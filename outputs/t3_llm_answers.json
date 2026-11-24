@@ -1,0 +1,1190 @@
+{
+  "no_data": {
+    "groq": {
+      "model": "openai/gpt-oss-120b",
+      "run_at": "2026-11-24T22:07:42.680129+00:00",
+      "raw_answer": {
+        "neighbourhoods": [
+          {
+            "name": "ALASKA JUNCTION",
+            "rating": 2,
+            "incidents_per_month": 8
+          },
+          {
+            "name": "ALKI",
+            "rating": 2,
+            "incidents_per_month": 7
+          },
+          {
+            "name": "BALLARD NORTH",
+            "rating": 3,
+            "incidents_per_month": 12
+          },
+          {
+            "name": "BALLARD SOUTH",
+            "rating": 3,
+            "incidents_per_month": 13
+          },
+          {
+            "name": "BELLTOWN",
+            "rating": 2,
+            "incidents_per_month": 9
+          },
+          {
+            "name": "BITTERLAKE",
+            "rating": 3,
+            "incidents_per_month": 11
+          },
+          {
+            "name": "BRIGHTON/DUNLAP",
+            "rating": 2,
+            "incidents_per_month": 8
+          },
+          {
+            "name": "CAPITOL HILL",
+            "rating": 5,
+            "incidents_per_month": 30
+          },
+          {
+            "name": "CENTRAL AREA/SQUIRE PARK",
+            "rating": 4,
+            "incidents_per_month": 20
+          },
+          {
+            "name": "CHINATOWN/INTERNATIONAL DISTRICT",
+            "rating": 5,
+            "incidents_per_month": 28
+          },
+          {
+            "name": "CLAREMONT/RAINIER VISTA",
+            "rating": 3,
+            "incidents_per_month": 12
+          },
+          {
+            "name": "COLUMBIA CITY",
+            "rating": 2,
+            "incidents_per_month": 9
+          },
+          {
+            "name": "COMMERCIAL DUWAMISH",
+            "rating": 2,
+            "incidents_per_month": 8
+          },
+          {
+            "name": "COMMERCIAL HARBOR ISLAND",
+            "rating": 2,
+            "incidents_per_month": 7
+          },
+          {
+            "name": "DOWNTOWN COMMERCIAL",
+            "rating": 5,
+            "incidents_per_month": 35
+          },
+          {
+            "name": "EASTLAKE - EAST",
+            "rating": 3,
+            "incidents_per_month": 14
+          },
+          {
+            "name": "EASTLAKE - WEST",
+            "rating": 3,
+            "incidents_per_month": 13
+          },
+          {
+            "name": "FAUNTLEROY SW",
+            "rating": 4,
+            "incidents_per_month": 18
+          },
+          {
+            "name": "FIRST HILL",
+            "rating": 3,
+            "incidents_per_month": 12
+          },
+          {
+            "name": "FREMONT",
+            "rating": 4,
+            "incidents_per_month": 19
+          },
+          {
+            "name": "GENESEE",
+            "rating": 3,
+            "incidents_per_month": 13
+          },
+          {
+            "name": "GEORGETOWN",
+            "rating": 4,
+            "incidents_per_month": 17
+          },
+          {
+            "name": "GREENWOOD",
+            "rating": 4,
+            "incidents_per_month": 18
+          },
+          {
+            "name": "HIGH POINT",
+            "rating": 2,
+            "incidents_per_month": 8
+          },
+          {
+            "name": "HIGHLAND PARK",
+            "rating": 2,
+            "incidents_per_month": 7
+          },
+          {
+            "name": "HILLMAN CITY",
+            "rating": 3,
+            "incidents_per_month": 11
+          },
+          {
+            "name": "JUDKINS PARK/NORTH BEACON HILL",
+            "rating": 3,
+            "incidents_per_month": 12
+          },
+          {
+            "name": "LAKECITY",
+            "rating": 3,
+            "incidents_per_month": 13
+          },
+          {
+            "name": "LAKEWOOD/SEWARD PARK",
+            "rating": 2,
+            "incidents_per_month": 9
+          },
+          {
+            "name": "MADISON PARK",
+            "rating": 1,
+            "incidents_per_month": 4
+          },
+          {
+            "name": "MADRONA/LESCHI",
+            "rating": 2,
+            "incidents_per_month": 8
+          },
+          {
+            "name": "MAGNOLIA",
+            "rating": 1,
+            "incidents_per_month": 3
+          },
+          {
+            "name": "MID BEACON HILL",
+            "rating": 3,
+            "incidents_per_month": 12
+          },
+          {
+            "name": "MILLER PARK",
+            "rating": 2,
+            "incidents_per_month": 7
+          },
+          {
+            "name": "MONTLAKE/PORTAGE BAY",
+            "rating": 3,
+            "incidents_per_month": 13
+          },
+          {
+            "name": "MORGAN",
+            "rating": 2,
+            "incidents_per_month": 8
+          },
+          {
+            "name": "MOUNT BAKER",
+            "rating": 2,
+            "incidents_per_month": 9
+          },
+          {
+            "name": "NEW HOLLY",
+            "rating": 2,
+            "incidents_per_month": 8
+          },
+          {
+            "name": "NORTH ADMIRAL",
+            "rating": 2,
+            "incidents_per_month": 7
+          },
+          {
+            "name": "NORTH BEACON HILL",
+            "rating": 3,
+            "incidents_per_month": 12
+          },
+          {
+            "name": "NORTH DELRIDGE",
+            "rating": 2,
+            "incidents_per_month": 8
+          },
+          {
+            "name": "NORTHGATE",
+            "rating": 2,
+            "incidents_per_month": 7
+          },
+          {
+            "name": "PHINNEY RIDGE",
+            "rating": 2,
+            "incidents_per_month": 8
+          },
+          {
+            "name": "PIGEON POINT",
+            "rating": 2,
+            "incidents_per_month": 9
+          },
+          {
+            "name": "PIONEER SQUARE",
+            "rating": 4,
+            "incidents_per_month": 19
+          },
+          {
+            "name": "QUEEN ANNE",
+            "rating": 3,
+            "incidents_per_month": 13
+          },
+          {
+            "name": "RAINIER BEACH",
+            "rating": 2,
+            "incidents_per_month": 8
+          },
+          {
+            "name": "RAINIER VIEW",
+            "rating": 3,
+            "incidents_per_month": 12
+          },
+          {
+            "name": "ROOSEVELT/RAVENNA",
+            "rating": 3,
+            "incidents_per_month": 13
+          },
+          {
+            "name": "ROXHILL/WESTWOOD/ARBOR HEIGHTS",
+            "rating": 3,
+            "incidents_per_month": 13
+          },
+          {
+            "name": "SANDPOINT",
+            "rating": 2,
+            "incidents_per_month": 9
+          },
+          {
+            "name": "SLU/CASCADE",
+            "rating": 4,
+            "incidents_per_month": 18
+          },
+          {
+            "name": "SODO",
+            "rating": 5,
+            "incidents_per_month": 32
+          },
+          {
+            "name": "SOUTH BEACON HILL",
+            "rating": 4,
+            "incidents_per_month": 20
+          },
+          {
+            "name": "SOUTH DELRIDGE",
+            "rating": 2,
+            "incidents_per_month": 8
+          },
+          {
+            "name": "SOUTH PARK",
+            "rating": 3,
+            "incidents_per_month": 13
+          },
+          {
+            "name": "UNIVERSITY",
+            "rating": 4,
+            "incidents_per_month": 21
+          },
+          {
+            "name": "WALLINGFORD",
+            "rating": 2,
+            "incidents_per_month": 8
+          }
+        ]
+      },
+      "valid": [
+        {
+          "name": "ALASKA JUNCTION",
+          "rating": 2,
+          "incidents_per_month": 8.0
+        },
+        {
+          "name": "ALKI",
+          "rating": 2,
+          "incidents_per_month": 7.0
+        },
+        {
+          "name": "BALLARD NORTH",
+          "rating": 3,
+          "incidents_per_month": 12.0
+        },
+        {
+          "name": "BALLARD SOUTH",
+          "rating": 3,
+          "incidents_per_month": 13.0
+        },
+        {
+          "name": "BELLTOWN",
+          "rating": 2,
+          "incidents_per_month": 9.0
+        },
+        {
+          "name": "BITTERLAKE",
+          "rating": 3,
+          "incidents_per_month": 11.0
+        },
+        {
+          "name": "BRIGHTON/DUNLAP",
+          "rating": 2,
+          "incidents_per_month": 8.0
+        },
+        {
+          "name": "CAPITOL HILL",
+          "rating": 5,
+          "incidents_per_month": 30.0
+        },
+        {
+          "name": "CENTRAL AREA/SQUIRE PARK",
+          "rating": 4,
+          "incidents_per_month": 20.0
+        },
+        {
+          "name": "CHINATOWN/INTERNATIONAL DISTRICT",
+          "rating": 5,
+          "incidents_per_month": 28.0
+        },
+        {
+          "name": "CLAREMONT/RAINIER VISTA",
+          "rating": 3,
+          "incidents_per_month": 12.0
+        },
+        {
+          "name": "COLUMBIA CITY",
+          "rating": 2,
+          "incidents_per_month": 9.0
+        },
+        {
+          "name": "COMMERCIAL DUWAMISH",
+          "rating": 2,
+          "incidents_per_month": 8.0
+        },
+        {
+          "name": "COMMERCIAL HARBOR ISLAND",
+          "rating": 2,
+          "incidents_per_month": 7.0
+        },
+        {
+          "name": "DOWNTOWN COMMERCIAL",
+          "rating": 5,
+          "incidents_per_month": 35.0
+        },
+        {
+          "name": "EASTLAKE - EAST",
+          "rating": 3,
+          "incidents_per_month": 14.0
+        },
+        {
+          "name": "EASTLAKE - WEST",
+          "rating": 3,
+          "incidents_per_month": 13.0
+        },
+        {
+          "name": "FAUNTLEROY SW",
+          "rating": 4,
+          "incidents_per_month": 18.0
+        },
+        {
+          "name": "FIRST HILL",
+          "rating": 3,
+          "incidents_per_month": 12.0
+        },
+        {
+          "name": "FREMONT",
+          "rating": 4,
+          "incidents_per_month": 19.0
+        },
+        {
+          "name": "GENESEE",
+          "rating": 3,
+          "incidents_per_month": 13.0
+        },
+        {
+          "name": "GEORGETOWN",
+          "rating": 4,
+          "incidents_per_month": 17.0
+        },
+        {
+          "name": "GREENWOOD",
+          "rating": 4,
+          "incidents_per_month": 18.0
+        },
+        {
+          "name": "HIGH POINT",
+          "rating": 2,
+          "incidents_per_month": 8.0
+        },
+        {
+          "name": "HIGHLAND PARK",
+          "rating": 2,
+          "incidents_per_month": 7.0
+        },
+        {
+          "name": "HILLMAN CITY",
+          "rating": 3,
+          "incidents_per_month": 11.0
+        },
+        {
+          "name": "JUDKINS PARK/NORTH BEACON HILL",
+          "rating": 3,
+          "incidents_per_month": 12.0
+        },
+        {
+          "name": "LAKECITY",
+          "rating": 3,
+          "incidents_per_month": 13.0
+        },
+        {
+          "name": "LAKEWOOD/SEWARD PARK",
+          "rating": 2,
+          "incidents_per_month": 9.0
+        },
+        {
+          "name": "MADISON PARK",
+          "rating": 1,
+          "incidents_per_month": 4.0
+        },
+        {
+          "name": "MADRONA/LESCHI",
+          "rating": 2,
+          "incidents_per_month": 8.0
+        },
+        {
+          "name": "MAGNOLIA",
+          "rating": 1,
+          "incidents_per_month": 3.0
+        },
+        {
+          "name": "MID BEACON HILL",
+          "rating": 3,
+          "incidents_per_month": 12.0
+        },
+        {
+          "name": "MILLER PARK",
+          "rating": 2,
+          "incidents_per_month": 7.0
+        },
+        {
+          "name": "MONTLAKE/PORTAGE BAY",
+          "rating": 3,
+          "incidents_per_month": 13.0
+        },
+        {
+          "name": "MORGAN",
+          "rating": 2,
+          "incidents_per_month": 8.0
+        },
+        {
+          "name": "MOUNT BAKER",
+          "rating": 2,
+          "incidents_per_month": 9.0
+        },
+        {
+          "name": "NEW HOLLY",
+          "rating": 2,
+          "incidents_per_month": 8.0
+        },
+        {
+          "name": "NORTH ADMIRAL",
+          "rating": 2,
+          "incidents_per_month": 7.0
+        },
+        {
+          "name": "NORTH BEACON HILL",
+          "rating": 3,
+          "incidents_per_month": 12.0
+        },
+        {
+          "name": "NORTH DELRIDGE",
+          "rating": 2,
+          "incidents_per_month": 8.0
+        },
+        {
+          "name": "NORTHGATE",
+          "rating": 2,
+          "incidents_per_month": 7.0
+        },
+        {
+          "name": "PHINNEY RIDGE",
+          "rating": 2,
+          "incidents_per_month": 8.0
+        },
+        {
+          "name": "PIGEON POINT",
+          "rating": 2,
+          "incidents_per_month": 9.0
+        },
+        {
+          "name": "PIONEER SQUARE",
+          "rating": 4,
+          "incidents_per_month": 19.0
+        },
+        {
+          "name": "QUEEN ANNE",
+          "rating": 3,
+          "incidents_per_month": 13.0
+        },
+        {
+          "name": "RAINIER BEACH",
+          "rating": 2,
+          "incidents_per_month": 8.0
+        },
+        {
+          "name": "RAINIER VIEW",
+          "rating": 3,
+          "incidents_per_month": 12.0
+        },
+        {
+          "name": "ROOSEVELT/RAVENNA",
+          "rating": 3,
+          "incidents_per_month": 13.0
+        },
+        {
+          "name": "ROXHILL/WESTWOOD/ARBOR HEIGHTS",
+          "rating": 3,
+          "incidents_per_month": 13.0
+        },
+        {
+          "name": "SANDPOINT",
+          "rating": 2,
+          "incidents_per_month": 9.0
+        },
+        {
+          "name": "SLU/CASCADE",
+          "rating": 4,
+          "incidents_per_month": 18.0
+        },
+        {
+          "name": "SODO",
+          "rating": 5,
+          "incidents_per_month": 32.0
+        },
+        {
+          "name": "SOUTH BEACON HILL",
+          "rating": 4,
+          "incidents_per_month": 20.0
+        },
+        {
+          "name": "SOUTH DELRIDGE",
+          "rating": 2,
+          "incidents_per_month": 8.0
+        },
+        {
+          "name": "SOUTH PARK",
+          "rating": 3,
+          "incidents_per_month": 13.0
+        },
+        {
+          "name": "UNIVERSITY",
+          "rating": 4,
+          "incidents_per_month": 21.0
+        },
+        {
+          "name": "WALLINGFORD",
+          "rating": 2,
+          "incidents_per_month": 8.0
+        }
+      ],
+      "skipped": [],
+      "invented": [],
+      "invalid": []
+    },
+    "gemini": {
+      "model": "gemini-3.5-flash",
+      "run_at": "2026-11-24T22:08:17.303409+00:00",
+      "raw_answer": {
+        "neighbourhoods": [
+          {
+            "name": "ALASKA JUNCTION",
+            "rating": 2,
+            "incidents_per_month": 95
+          },
+          {
+            "name": "ALKI",
+            "rating": 2,
+            "incidents_per_month": 70
+          },
+          {
+            "name": "BALLARD NORTH",
+            "rating": 3,
+            "incidents_per_month": 160
+          },
+          {
+            "name": "BALLARD SOUTH",
+            "rating": 4,
+            "incidents_per_month": 380
+          },
+          {
+            "name": "BELLTOWN",
+            "rating": 5,
+            "incidents_per_month": 720
+          },
+          {
+            "name": "BITTERLAKE",
+            "rating": 3,
+            "incidents_per_month": 220
+          },
+          {
+            "name": "BRIGHTON/DUNLAP",
+            "rating": 3,
+            "incidents_per_month": 140
+          },
+          {
+            "name": "CAPITOL HILL",
+            "rating": 5,
+            "incidents_per_month": 850
+          },
+          {
+            "name": "CENTRAL AREA/SQUIRE PARK",
+            "rating": 4,
+            "incidents_per_month": 320
+          },
+          {
+            "name": "CHINATOWN/INTERNATIONAL DISTRICT",
+            "rating": 5,
+            "incidents_per_month": 520
+          },
+          {
+            "name": "CLAREMONT/RAINIER VISTA",
+            "rating": 2,
+            "incidents_per_month": 85
+          },
+          {
+            "name": "COLUMBIA CITY",
+            "rating": 3,
+            "incidents_per_month": 130
+          },
+          {
+            "name": "COMMERCIAL DUWAMISH",
+            "rating": 2,
+            "incidents_per_month": 90
+          },
+          {
+            "name": "COMMERCIAL HARBOR ISLAND",
+            "rating": 1,
+            "incidents_per_month": 10
+          },
+          {
+            "name": "DOWNTOWN COMMERCIAL",
+            "rating": 5,
+            "incidents_per_month": 1050
+          },
+          {
+            "name": "EASTLAKE - EAST",
+            "rating": 2,
+            "incidents_per_month": 65
+          },
+          {
+            "name": "EASTLAKE - WEST",
+            "rating": 2,
+            "incidents_per_month": 55
+          },
+          {
+            "name": "FAUNTLEROY SW",
+            "rating": 1,
+            "incidents_per_month": 30
+          },
+          {
+            "name": "FIRST HILL",
+            "rating": 4,
+            "incidents_per_month": 390
+          },
+          {
+            "name": "FREMONT",
+            "rating": 3,
+            "incidents_per_month": 210
+          },
+          {
+            "name": "GENESEE",
+            "rating": 2,
+            "incidents_per_month": 60
+          },
+          {
+            "name": "GEORGETOWN",
+            "rating": 3,
+            "incidents_per_month": 190
+          },
+          {
+            "name": "GREENWOOD",
+            "rating": 3,
+            "incidents_per_month": 230
+          },
+          {
+            "name": "HIGH POINT",
+            "rating": 3,
+            "incidents_per_month": 120
+          },
+          {
+            "name": "HIGHLAND PARK",
+            "rating": 2,
+            "incidents_per_month": 105
+          },
+          {
+            "name": "HILLMAN CITY",
+            "rating": 2,
+            "incidents_per_month": 75
+          },
+          {
+            "name": "JUDKINS PARK/NORTH BEACON HILL",
+            "rating": 3,
+            "incidents_per_month": 145
+          },
+          {
+            "name": "LAKECITY",
+            "rating": 4,
+            "incidents_per_month": 340
+          },
+          {
+            "name": "LAKEWOOD/SEWARD PARK",
+            "rating": 2,
+            "incidents_per_month": 55
+          },
+          {
+            "name": "MADISON PARK",
+            "rating": 1,
+            "incidents_per_month": 35
+          },
+          {
+            "name": "MADRONA/LESCHI",
+            "rating": 2,
+            "incidents_per_month": 65
+          },
+          {
+            "name": "MAGNOLIA",
+            "rating": 2,
+            "incidents_per_month": 110
+          },
+          {
+            "name": "MID BEACON HILL",
+            "rating": 2,
+            "incidents_per_month": 80
+          },
+          {
+            "name": "MILLER PARK",
+            "rating": 2,
+            "incidents_per_month": 70
+          },
+          {
+            "name": "MONTLAKE/PORTAGE BAY",
+            "rating": 1,
+            "incidents_per_month": 40
+          },
+          {
+            "name": "MORGAN",
+            "rating": 2,
+            "incidents_per_month": 65
+          },
+          {
+            "name": "MOUNT BAKER",
+            "rating": 2,
+            "incidents_per_month": 95
+          },
+          {
+            "name": "NEW HOLLY",
+            "rating": 2,
+            "incidents_per_month": 100
+          },
+          {
+            "name": "NORTH ADMIRAL",
+            "rating": 2,
+            "incidents_per_month": 75
+          },
+          {
+            "name": "NORTH BEACON HILL",
+            "rating": 3,
+            "incidents_per_month": 150
+          },
+          {
+            "name": "NORTH DELRIDGE",
+            "rating": 2,
+            "incidents_per_month": 115
+          },
+          {
+            "name": "NORTHGATE",
+            "rating": 4,
+            "incidents_per_month": 430
+          },
+          {
+            "name": "PHINNEY RIDGE",
+            "rating": 2,
+            "incidents_per_month": 80
+          },
+          {
+            "name": "PIGEON POINT",
+            "rating": 1,
+            "incidents_per_month": 25
+          },
+          {
+            "name": "PIONEER SQUARE",
+            "rating": 4,
+            "incidents_per_month": 460
+          },
+          {
+            "name": "QUEEN ANNE",
+            "rating": 4,
+            "incidents_per_month": 410
+          },
+          {
+            "name": "RAINIER BEACH",
+            "rating": 3,
+            "incidents_per_month": 240
+          },
+          {
+            "name": "RAINIER VIEW",
+            "rating": 2,
+            "incidents_per_month": 75
+          },
+          {
+            "name": "ROOSEVELT/RAVENNA",
+            "rating": 3,
+            "incidents_per_month": 200
+          },
+          {
+            "name": "ROXHILL/WESTWOOD/ARBOR HEIGHTS",
+            "rating": 3,
+            "incidents_per_month": 250
+          },
+          {
+            "name": "SANDPOINT",
+            "rating": 2,
+            "incidents_per_month": 60
+          },
+          {
+            "name": "SLU/CASCADE",
+            "rating": 4,
+            "incidents_per_month": 480
+          },
+          {
+            "name": "SODO",
+            "rating": 4,
+            "incidents_per_month": 360
+          },
+          {
+            "name": "SOUTH BEACON HILL",
+            "rating": 2,
+            "incidents_per_month": 85
+          },
+          {
+            "name": "SOUTH DELRIDGE",
+            "rating": 2,
+            "incidents_per_month": 110
+          },
+          {
+            "name": "SOUTH PARK",
+            "rating": 3,
+            "incidents_per_month": 170
+          },
+          {
+            "name": "UNIVERSITY",
+            "rating": 4,
+            "incidents_per_month": 450
+          },
+          {
+            "name": "WALLINGFORD",
+            "rating": 3,
+            "incidents_per_month": 180
+          }
+        ]
+      },
+      "valid": [
+        {
+          "name": "ALASKA JUNCTION",
+          "rating": 2,
+          "incidents_per_month": 95.0
+        },
+        {
+          "name": "ALKI",
+          "rating": 2,
+          "incidents_per_month": 70.0
+        },
+        {
+          "name": "BALLARD NORTH",
+          "rating": 3,
+          "incidents_per_month": 160.0
+        },
+        {
+          "name": "BALLARD SOUTH",
+          "rating": 4,
+          "incidents_per_month": 380.0
+        },
+        {
+          "name": "BELLTOWN",
+          "rating": 5,
+          "incidents_per_month": 720.0
+        },
+        {
+          "name": "BITTERLAKE",
+          "rating": 3,
+          "incidents_per_month": 220.0
+        },
+        {
+          "name": "BRIGHTON/DUNLAP",
+          "rating": 3,
+          "incidents_per_month": 140.0
+        },
+        {
+          "name": "CAPITOL HILL",
+          "rating": 5,
+          "incidents_per_month": 850.0
+        },
+        {
+          "name": "CENTRAL AREA/SQUIRE PARK",
+          "rating": 4,
+          "incidents_per_month": 320.0
+        },
+        {
+          "name": "CHINATOWN/INTERNATIONAL DISTRICT",
+          "rating": 5,
+          "incidents_per_month": 520.0
+        },
+        {
+          "name": "CLAREMONT/RAINIER VISTA",
+          "rating": 2,
+          "incidents_per_month": 85.0
+        },
+        {
+          "name": "COLUMBIA CITY",
+          "rating": 3,
+          "incidents_per_month": 130.0
+        },
+        {
+          "name": "COMMERCIAL DUWAMISH",
+          "rating": 2,
+          "incidents_per_month": 90.0
+        },
+        {
+          "name": "COMMERCIAL HARBOR ISLAND",
+          "rating": 1,
+          "incidents_per_month": 10.0
+        },
+        {
+          "name": "DOWNTOWN COMMERCIAL",
+          "rating": 5,
+          "incidents_per_month": 1050.0
+        },
+        {
+          "name": "EASTLAKE - EAST",
+          "rating": 2,
+          "incidents_per_month": 65.0
+        },
+        {
+          "name": "EASTLAKE - WEST",
+          "rating": 2,
+          "incidents_per_month": 55.0
+        },
+        {
+          "name": "FAUNTLEROY SW",
+          "rating": 1,
+          "incidents_per_month": 30.0
+        },
+        {
+          "name": "FIRST HILL",
+          "rating": 4,
+          "incidents_per_month": 390.0
+        },
+        {
+          "name": "FREMONT",
+          "rating": 3,
+          "incidents_per_month": 210.0
+        },
+        {
+          "name": "GENESEE",
+          "rating": 2,
+          "incidents_per_month": 60.0
+        },
+        {
+          "name": "GEORGETOWN",
+          "rating": 3,
+          "incidents_per_month": 190.0
+        },
+        {
+          "name": "GREENWOOD",
+          "rating": 3,
+          "incidents_per_month": 230.0
+        },
+        {
+          "name": "HIGH POINT",
+          "rating": 3,
+          "incidents_per_month": 120.0
+        },
+        {
+          "name": "HIGHLAND PARK",
+          "rating": 2,
+          "incidents_per_month": 105.0
+        },
+        {
+          "name": "HILLMAN CITY",
+          "rating": 2,
+          "incidents_per_month": 75.0
+        },
+        {
+          "name": "JUDKINS PARK/NORTH BEACON HILL",
+          "rating": 3,
+          "incidents_per_month": 145.0
+        },
+        {
+          "name": "LAKECITY",
+          "rating": 4,
+          "incidents_per_month": 340.0
+        },
+        {
+          "name": "LAKEWOOD/SEWARD PARK",
+          "rating": 2,
+          "incidents_per_month": 55.0
+        },
+        {
+          "name": "MADISON PARK",
+          "rating": 1,
+          "incidents_per_month": 35.0
+        },
+        {
+          "name": "MADRONA/LESCHI",
+          "rating": 2,
+          "incidents_per_month": 65.0
+        },
+        {
+          "name": "MAGNOLIA",
+          "rating": 2,
+          "incidents_per_month": 110.0
+        },
+        {
+          "name": "MID BEACON HILL",
+          "rating": 2,
+          "incidents_per_month": 80.0
+        },
+        {
+          "name": "MILLER PARK",
+          "rating": 2,
+          "incidents_per_month": 70.0
+        },
+        {
+          "name": "MONTLAKE/PORTAGE BAY",
+          "rating": 1,
+          "incidents_per_month": 40.0
+        },
+        {
+          "name": "MORGAN",
+          "rating": 2,
+          "incidents_per_month": 65.0
+        },
+        {
+          "name": "MOUNT BAKER",
+          "rating": 2,
+          "incidents_per_month": 95.0
+        },
+        {
+          "name": "NEW HOLLY",
+          "rating": 2,
+          "incidents_per_month": 100.0
+        },
+        {
+          "name": "NORTH ADMIRAL",
+          "rating": 2,
+          "incidents_per_month": 75.0
+        },
+        {
+          "name": "NORTH BEACON HILL",
+          "rating": 3,
+          "incidents_per_month": 150.0
+        },
+        {
+          "name": "NORTH DELRIDGE",
+          "rating": 2,
+          "incidents_per_month": 115.0
+        },
+        {
+          "name": "NORTHGATE",
+          "rating": 4,
+          "incidents_per_month": 430.0
+        },
+        {
+          "name": "PHINNEY RIDGE",
+          "rating": 2,
+          "incidents_per_month": 80.0
+        },
+        {
+          "name": "PIGEON POINT",
+          "rating": 1,
+          "incidents_per_month": 25.0
+        },
+        {
+          "name": "PIONEER SQUARE",
+          "rating": 4,
+          "incidents_per_month": 460.0
+        },
+        {
+          "name": "QUEEN ANNE",
+          "rating": 4,
+          "incidents_per_month": 410.0
+        },
+        {
+          "name": "RAINIER BEACH",
+          "rating": 3,
+          "incidents_per_month": 240.0
+        },
+        {
+          "name": "RAINIER VIEW",
+          "rating": 2,
+          "incidents_per_month": 75.0
+        },
+        {
+          "name": "ROOSEVELT/RAVENNA",
+          "rating": 3,
+          "incidents_per_month": 200.0
+        },
+        {
+          "name": "ROXHILL/WESTWOOD/ARBOR HEIGHTS",
+          "rating": 3,
+          "incidents_per_month": 250.0
+        },
+        {
+          "name": "SANDPOINT",
+          "rating": 2,
+          "incidents_per_month": 60.0
+        },
+        {
+          "name": "SLU/CASCADE",
+          "rating": 4,
+          "incidents_per_month": 480.0
+        },
+        {
+          "name": "SODO",
+          "rating": 4,
+          "incidents_per_month": 360.0
+        },
+        {
+          "name": "SOUTH BEACON HILL",
+          "rating": 2,
+          "incidents_per_month": 85.0
+        },
+        {
+          "name": "SOUTH DELRIDGE",
+          "rating": 2,
+          "incidents_per_month": 110.0
+        },
+        {
+          "name": "SOUTH PARK",
+          "rating": 3,
+          "incidents_per_month": 170.0
+        },
+        {
+          "name": "UNIVERSITY",
+          "rating": 4,
+          "incidents_per_month": 450.0
+        },
+        {
+          "name": "WALLINGFORD",
+          "rating": 3,
+          "incidents_per_month": 180.0
+        }
+      ],
+      "skipped": [],
+      "invented": [],
+      "invalid": []
+    }
+  }
+}
