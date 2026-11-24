@@ -25,6 +25,7 @@ PROVIDERS = {
         "url": "https://api.groq.com/openai/v1/chat/completions",
         "model": "openai/gpt-oss-120b",
         "key_env": "GROQ_API_KEY",
+        "extra": {"reasoning_effort": "low", "max_completion_tokens": 8192},
     },
     "openrouter": {
         "url": "https://openrouter.ai/api/v1/chat/completions",
@@ -77,6 +78,7 @@ def _call_openai_style(provider, system, user):
         ],
         "temperature": 0,
     }
+    body.update(cfg.get("extra", {}))
     headers = {"Authorization": f"Bearer {_get_key(provider)}"}
     resp = requests.post(cfg["url"], headers=headers, json=body, timeout=90)
     if resp.status_code == 429:          # rate limited: wait once and retry
@@ -126,6 +128,9 @@ def chat(system, user, provider="groq", use_cache=True):
             return chat(system, user, provider="openrouter", use_cache=use_cache)
         raise
 
+    if not reply or not reply.strip():
+        raise RuntimeError(f"{provider} returned an empty reply (likely hit the token limit)")
+    
     path.write_text(json.dumps({
         "provider": provider,
         "model": model,

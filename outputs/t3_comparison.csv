@@ -1,0 +1,233 @@
+mode,provider,model,neighbourhood,real_monthly_avg,llm_rating,llm_estimate,real_rank,pct_error
+no_data,groq,openai/gpt-oss-120b,CAPITOL HILL,460.47,5,30.0,1,93.5
+no_data,groq,openai/gpt-oss-120b,DOWNTOWN COMMERCIAL,420.53,5,35.0,2,91.7
+no_data,groq,openai/gpt-oss-120b,QUEEN ANNE,374.97,3,13.0,3,96.5
+no_data,groq,openai/gpt-oss-120b,NORTHGATE,373.25,2,7.0,4,98.1
+no_data,groq,openai/gpt-oss-120b,SLU/CASCADE,319.08,4,18.0,5,94.4
+no_data,groq,openai/gpt-oss-120b,UNIVERSITY,298.22,4,21.0,6,93.0
+no_data,groq,openai/gpt-oss-120b,ROOSEVELT/RAVENNA,268.67,3,13.0,7,95.2
+no_data,groq,openai/gpt-oss-120b,FIRST HILL,254.83,3,12.0,8,95.3
+no_data,groq,openai/gpt-oss-120b,BALLARD SOUTH,252.58,3,13.0,9,94.9
+no_data,groq,openai/gpt-oss-120b,CHINATOWN/INTERNATIONAL DISTRICT,215.28,5,28.0,10,87.0
+no_data,groq,openai/gpt-oss-120b,CENTRAL AREA/SQUIRE PARK,194.75,4,20.0,11,89.7
+no_data,groq,openai/gpt-oss-120b,LAKECITY,189.14,3,13.0,12,93.1
+no_data,groq,openai/gpt-oss-120b,BELLTOWN,164.22,2,9.0,13,94.5
+no_data,groq,openai/gpt-oss-120b,SANDPOINT,160.28,2,9.0,14,94.4
+no_data,groq,openai/gpt-oss-120b,BITTERLAKE,155.39,3,11.0,15,92.9
+no_data,groq,openai/gpt-oss-120b,NORTH BEACON HILL,147.94,3,12.0,16,91.9
+no_data,groq,openai/gpt-oss-120b,SODO,138.56,5,32.0,17,76.9
+no_data,groq,openai/gpt-oss-120b,GREENWOOD,133.31,4,18.0,18,86.5
+no_data,groq,openai/gpt-oss-120b,ALASKA JUNCTION,124.83,2,8.0,19,93.6
+no_data,groq,openai/gpt-oss-120b,MOUNT BAKER,124.58,2,9.0,20,92.8
+no_data,groq,openai/gpt-oss-120b,FREMONT,123.56,4,19.0,21,84.6
+no_data,groq,openai/gpt-oss-120b,ROXHILL/WESTWOOD/ARBOR HEIGHTS,120.75,3,13.0,22,89.2
+no_data,groq,openai/gpt-oss-120b,BALLARD NORTH,115.83,3,12.0,23,89.6
+no_data,groq,openai/gpt-oss-120b,WALLINGFORD,115.78,2,8.0,24,93.1
+no_data,groq,openai/gpt-oss-120b,MADRONA/LESCHI,104.42,2,8.0,25,92.3
+no_data,groq,openai/gpt-oss-120b,MAGNOLIA,102.5,1,3.0,26,97.1
+no_data,groq,openai/gpt-oss-120b,GEORGETOWN,102.31,4,17.0,27,83.4
+no_data,groq,openai/gpt-oss-120b,PIONEER SQUARE,99.42,4,19.0,28,80.9
+no_data,groq,openai/gpt-oss-120b,JUDKINS PARK/NORTH BEACON HILL,90.69,3,12.0,29,86.8
+no_data,groq,openai/gpt-oss-120b,BRIGHTON/DUNLAP,90.42,2,8.0,30,91.2
+no_data,groq,openai/gpt-oss-120b,RAINIER BEACH,82.31,2,8.0,31,90.3
+no_data,groq,openai/gpt-oss-120b,HIGHLAND PARK,74.69,2,7.0,32,90.6
+no_data,groq,openai/gpt-oss-120b,NORTH ADMIRAL,71.14,2,7.0,33,90.2
+no_data,groq,openai/gpt-oss-120b,MID BEACON HILL,64.06,3,12.0,34,81.3
+no_data,groq,openai/gpt-oss-120b,MORGAN,61.92,2,8.0,35,87.1
+no_data,groq,openai/gpt-oss-120b,HIGH POINT,57.5,2,8.0,36,86.1
+no_data,groq,openai/gpt-oss-120b,NORTH DELRIDGE,54.75,2,8.0,37,85.4
+no_data,groq,openai/gpt-oss-120b,CLAREMONT/RAINIER VISTA,52.39,3,12.0,38,77.1
+no_data,groq,openai/gpt-oss-120b,MILLER PARK,49.75,2,7.0,39,85.9
+no_data,groq,openai/gpt-oss-120b,NEW HOLLY,48.53,2,8.0,40,83.5
+no_data,groq,openai/gpt-oss-120b,EASTLAKE - WEST,48.28,3,13.0,41,73.1
+no_data,groq,openai/gpt-oss-120b,SOUTH PARK,46.47,3,13.0,42,72.0
+no_data,groq,openai/gpt-oss-120b,RAINIER VIEW,46.44,3,12.0,43,74.2
+no_data,groq,openai/gpt-oss-120b,PHINNEY RIDGE,45.22,2,8.0,44,82.3
+no_data,groq,openai/gpt-oss-120b,MONTLAKE/PORTAGE BAY,43.19,3,13.0,45,69.9
+no_data,groq,openai/gpt-oss-120b,COLUMBIA CITY,43.17,2,9.0,46,79.2
+no_data,groq,openai/gpt-oss-120b,ALKI,39.25,2,7.0,47,82.2
+no_data,groq,openai/gpt-oss-120b,SOUTH DELRIDGE,30.22,2,8.0,48,73.5
+no_data,groq,openai/gpt-oss-120b,LAKEWOOD/SEWARD PARK,29.83,2,9.0,49,69.8
+no_data,groq,openai/gpt-oss-120b,HILLMAN CITY,29.53,3,11.0,50,62.7
+no_data,groq,openai/gpt-oss-120b,GENESEE,25.33,3,13.0,51,48.7
+no_data,groq,openai/gpt-oss-120b,SOUTH BEACON HILL,24.28,4,20.0,52,17.6
+no_data,groq,openai/gpt-oss-120b,FAUNTLEROY SW,23.83,4,18.0,53,24.5
+no_data,groq,openai/gpt-oss-120b,MADISON PARK,22.83,1,4.0,54,82.5
+no_data,groq,openai/gpt-oss-120b,EASTLAKE - EAST,11.42,3,14.0,55,22.6
+no_data,groq,openai/gpt-oss-120b,PIGEON POINT,8.28,2,9.0,56,8.7
+no_data,groq,openai/gpt-oss-120b,COMMERCIAL DUWAMISH,5.86,2,8.0,57,36.5
+no_data,groq,openai/gpt-oss-120b,COMMERCIAL HARBOR ISLAND,3.53,2,7.0,58,98.3
+no_data,gemini,gemini-3.5-flash,CAPITOL HILL,460.47,5,850.0,1,84.6
+no_data,gemini,gemini-3.5-flash,DOWNTOWN COMMERCIAL,420.53,5,1050.0,2,149.7
+no_data,gemini,gemini-3.5-flash,QUEEN ANNE,374.97,4,410.0,3,9.3
+no_data,gemini,gemini-3.5-flash,NORTHGATE,373.25,4,430.0,4,15.2
+no_data,gemini,gemini-3.5-flash,SLU/CASCADE,319.08,4,480.0,5,50.4
+no_data,gemini,gemini-3.5-flash,UNIVERSITY,298.22,4,450.0,6,50.9
+no_data,gemini,gemini-3.5-flash,ROOSEVELT/RAVENNA,268.67,3,200.0,7,25.6
+no_data,gemini,gemini-3.5-flash,FIRST HILL,254.83,4,390.0,8,53.0
+no_data,gemini,gemini-3.5-flash,BALLARD SOUTH,252.58,4,380.0,9,50.4
+no_data,gemini,gemini-3.5-flash,CHINATOWN/INTERNATIONAL DISTRICT,215.28,5,520.0,10,141.5
+no_data,gemini,gemini-3.5-flash,CENTRAL AREA/SQUIRE PARK,194.75,4,320.0,11,64.3
+no_data,gemini,gemini-3.5-flash,LAKECITY,189.14,4,340.0,12,79.8
+no_data,gemini,gemini-3.5-flash,BELLTOWN,164.22,5,720.0,13,338.4
+no_data,gemini,gemini-3.5-flash,SANDPOINT,160.28,2,60.0,14,62.6
+no_data,gemini,gemini-3.5-flash,BITTERLAKE,155.39,3,220.0,15,41.6
+no_data,gemini,gemini-3.5-flash,NORTH BEACON HILL,147.94,3,150.0,16,1.4
+no_data,gemini,gemini-3.5-flash,SODO,138.56,4,360.0,17,159.8
+no_data,gemini,gemini-3.5-flash,GREENWOOD,133.31,3,230.0,18,72.5
+no_data,gemini,gemini-3.5-flash,ALASKA JUNCTION,124.83,2,95.0,19,23.9
+no_data,gemini,gemini-3.5-flash,MOUNT BAKER,124.58,2,95.0,20,23.7
+no_data,gemini,gemini-3.5-flash,FREMONT,123.56,3,210.0,21,70.0
+no_data,gemini,gemini-3.5-flash,ROXHILL/WESTWOOD/ARBOR HEIGHTS,120.75,3,250.0,22,107.0
+no_data,gemini,gemini-3.5-flash,BALLARD NORTH,115.83,3,160.0,23,38.1
+no_data,gemini,gemini-3.5-flash,WALLINGFORD,115.78,3,180.0,24,55.5
+no_data,gemini,gemini-3.5-flash,MADRONA/LESCHI,104.42,2,65.0,25,37.8
+no_data,gemini,gemini-3.5-flash,MAGNOLIA,102.5,2,110.0,26,7.3
+no_data,gemini,gemini-3.5-flash,GEORGETOWN,102.31,3,190.0,27,85.7
+no_data,gemini,gemini-3.5-flash,PIONEER SQUARE,99.42,4,460.0,28,362.7
+no_data,gemini,gemini-3.5-flash,JUDKINS PARK/NORTH BEACON HILL,90.69,3,145.0,29,59.9
+no_data,gemini,gemini-3.5-flash,BRIGHTON/DUNLAP,90.42,3,140.0,30,54.8
+no_data,gemini,gemini-3.5-flash,RAINIER BEACH,82.31,3,240.0,31,191.6
+no_data,gemini,gemini-3.5-flash,HIGHLAND PARK,74.69,2,105.0,32,40.6
+no_data,gemini,gemini-3.5-flash,NORTH ADMIRAL,71.14,2,75.0,33,5.4
+no_data,gemini,gemini-3.5-flash,MID BEACON HILL,64.06,2,80.0,34,24.9
+no_data,gemini,gemini-3.5-flash,MORGAN,61.92,2,65.0,35,5.0
+no_data,gemini,gemini-3.5-flash,HIGH POINT,57.5,3,120.0,36,108.7
+no_data,gemini,gemini-3.5-flash,NORTH DELRIDGE,54.75,2,115.0,37,110.0
+no_data,gemini,gemini-3.5-flash,CLAREMONT/RAINIER VISTA,52.39,2,85.0,38,62.2
+no_data,gemini,gemini-3.5-flash,MILLER PARK,49.75,2,70.0,39,40.7
+no_data,gemini,gemini-3.5-flash,NEW HOLLY,48.53,2,100.0,40,106.1
+no_data,gemini,gemini-3.5-flash,EASTLAKE - WEST,48.28,2,55.0,41,13.9
+no_data,gemini,gemini-3.5-flash,SOUTH PARK,46.47,3,170.0,42,265.8
+no_data,gemini,gemini-3.5-flash,RAINIER VIEW,46.44,2,75.0,43,61.5
+no_data,gemini,gemini-3.5-flash,PHINNEY RIDGE,45.22,2,80.0,44,76.9
+no_data,gemini,gemini-3.5-flash,MONTLAKE/PORTAGE BAY,43.19,1,40.0,45,7.4
+no_data,gemini,gemini-3.5-flash,COLUMBIA CITY,43.17,3,130.0,46,201.1
+no_data,gemini,gemini-3.5-flash,ALKI,39.25,2,70.0,47,78.3
+no_data,gemini,gemini-3.5-flash,SOUTH DELRIDGE,30.22,2,110.0,48,264.0
+no_data,gemini,gemini-3.5-flash,LAKEWOOD/SEWARD PARK,29.83,2,55.0,49,84.4
+no_data,gemini,gemini-3.5-flash,HILLMAN CITY,29.53,2,75.0,50,154.0
+no_data,gemini,gemini-3.5-flash,GENESEE,25.33,2,60.0,51,136.9
+no_data,gemini,gemini-3.5-flash,SOUTH BEACON HILL,24.28,2,85.0,52,250.1
+no_data,gemini,gemini-3.5-flash,FAUNTLEROY SW,23.83,1,30.0,53,25.9
+no_data,gemini,gemini-3.5-flash,MADISON PARK,22.83,1,35.0,54,53.3
+no_data,gemini,gemini-3.5-flash,EASTLAKE - EAST,11.42,2,65.0,55,469.2
+no_data,gemini,gemini-3.5-flash,PIGEON POINT,8.28,1,25.0,56,201.9
+no_data,gemini,gemini-3.5-flash,COMMERCIAL DUWAMISH,5.86,2,90.0,57,1435.8
+no_data,gemini,gemini-3.5-flash,COMMERCIAL HARBOR ISLAND,3.53,1,10.0,58,183.3
+with_data,groq,openai/gpt-oss-120b,CAPITOL HILL,460.47,5,460.0,1,0.1
+with_data,groq,openai/gpt-oss-120b,DOWNTOWN COMMERCIAL,420.53,5,421.0,2,0.1
+with_data,groq,openai/gpt-oss-120b,QUEEN ANNE,374.97,5,375.0,3,0.0
+with_data,groq,openai/gpt-oss-120b,NORTHGATE,373.25,5,373.0,4,0.1
+with_data,groq,openai/gpt-oss-120b,SLU/CASCADE,319.08,5,319.0,5,0.0
+with_data,groq,openai/gpt-oss-120b,UNIVERSITY,298.22,5,298.0,6,0.1
+with_data,groq,openai/gpt-oss-120b,ROOSEVELT/RAVENNA,268.67,5,269.0,7,0.1
+with_data,groq,openai/gpt-oss-120b,FIRST HILL,254.83,5,255.0,8,0.1
+with_data,groq,openai/gpt-oss-120b,BALLARD SOUTH,252.58,5,253.0,9,0.2
+with_data,groq,openai/gpt-oss-120b,CHINATOWN/INTERNATIONAL DISTRICT,215.28,5,215.0,10,0.1
+with_data,groq,openai/gpt-oss-120b,CENTRAL AREA/SQUIRE PARK,194.75,4,195.0,11,0.1
+with_data,groq,openai/gpt-oss-120b,LAKECITY,189.14,4,189.0,12,0.1
+with_data,groq,openai/gpt-oss-120b,BELLTOWN,164.22,4,164.0,13,0.1
+with_data,groq,openai/gpt-oss-120b,SANDPOINT,160.28,4,160.0,14,0.2
+with_data,groq,openai/gpt-oss-120b,BITTERLAKE,155.39,4,155.0,15,0.3
+with_data,groq,openai/gpt-oss-120b,NORTH BEACON HILL,147.94,4,148.0,16,0.0
+with_data,groq,openai/gpt-oss-120b,SODO,138.56,4,139.0,17,0.3
+with_data,groq,openai/gpt-oss-120b,GREENWOOD,133.31,3,133.0,18,0.2
+with_data,groq,openai/gpt-oss-120b,ALASKA JUNCTION,124.83,2,125.0,19,0.1
+with_data,groq,openai/gpt-oss-120b,MOUNT BAKER,124.58,3,125.0,20,0.3
+with_data,groq,openai/gpt-oss-120b,FREMONT,123.56,2,124.0,21,0.4
+with_data,groq,openai/gpt-oss-120b,ROXHILL/WESTWOOD/ARBOR HEIGHTS,120.75,3,121.0,22,0.2
+with_data,groq,openai/gpt-oss-120b,BALLARD NORTH,115.83,2,116.0,23,0.1
+with_data,groq,openai/gpt-oss-120b,WALLINGFORD,115.78,3,116.0,24,0.2
+with_data,groq,openai/gpt-oss-120b,MADRONA/LESCHI,104.42,2,104.0,25,0.4
+with_data,groq,openai/gpt-oss-120b,MAGNOLIA,102.5,2,103.0,26,0.5
+with_data,groq,openai/gpt-oss-120b,GEORGETOWN,102.31,2,102.0,27,0.3
+with_data,groq,openai/gpt-oss-120b,PIONEER SQUARE,99.42,2,99.0,28,0.4
+with_data,groq,openai/gpt-oss-120b,JUDKINS PARK/NORTH BEACON HILL,90.69,2,91.0,29,0.3
+with_data,groq,openai/gpt-oss-120b,BRIGHTON/DUNLAP,90.42,2,90.0,30,0.5
+with_data,groq,openai/gpt-oss-120b,RAINIER BEACH,82.31,2,82.0,31,0.4
+with_data,groq,openai/gpt-oss-120b,HIGHLAND PARK,74.69,2,75.0,32,0.4
+with_data,groq,openai/gpt-oss-120b,NORTH ADMIRAL,71.14,2,71.0,33,0.2
+with_data,groq,openai/gpt-oss-120b,MID BEACON HILL,64.06,2,64.0,34,0.1
+with_data,groq,openai/gpt-oss-120b,MORGAN,61.92,2,62.0,35,0.1
+with_data,groq,openai/gpt-oss-120b,HIGH POINT,57.5,2,58.0,36,0.9
+with_data,groq,openai/gpt-oss-120b,NORTH DELRIDGE,54.75,1,55.0,37,0.5
+with_data,groq,openai/gpt-oss-120b,CLAREMONT/RAINIER VISTA,52.39,1,52.0,38,0.7
+with_data,groq,openai/gpt-oss-120b,MILLER PARK,49.75,2,50.0,39,0.5
+with_data,groq,openai/gpt-oss-120b,NEW HOLLY,48.53,2,49.0,40,1.0
+with_data,groq,openai/gpt-oss-120b,EASTLAKE - WEST,48.28,2,48.0,41,0.6
+with_data,groq,openai/gpt-oss-120b,SOUTH PARK,46.47,1,46.0,42,1.0
+with_data,groq,openai/gpt-oss-120b,RAINIER VIEW,46.44,1,46.0,43,0.9
+with_data,groq,openai/gpt-oss-120b,PHINNEY RIDGE,45.22,1,45.0,44,0.5
+with_data,groq,openai/gpt-oss-120b,MONTLAKE/PORTAGE BAY,43.19,1,43.0,45,0.4
+with_data,groq,openai/gpt-oss-120b,COLUMBIA CITY,43.17,1,43.0,46,0.4
+with_data,groq,openai/gpt-oss-120b,ALKI,39.25,1,39.0,47,0.6
+with_data,groq,openai/gpt-oss-120b,SOUTH DELRIDGE,30.22,1,30.0,48,0.7
+with_data,groq,openai/gpt-oss-120b,LAKEWOOD/SEWARD PARK,29.83,1,30.0,49,0.6
+with_data,groq,openai/gpt-oss-120b,HILLMAN CITY,29.53,1,30.0,50,1.6
+with_data,groq,openai/gpt-oss-120b,GENESEE,25.33,1,25.0,51,1.3
+with_data,groq,openai/gpt-oss-120b,SOUTH BEACON HILL,24.28,1,24.0,52,1.2
+with_data,groq,openai/gpt-oss-120b,FAUNTLEROY SW,23.83,1,24.0,53,0.7
+with_data,groq,openai/gpt-oss-120b,MADISON PARK,22.83,1,23.0,54,0.7
+with_data,groq,openai/gpt-oss-120b,EASTLAKE - EAST,11.42,1,11.0,55,3.7
+with_data,groq,openai/gpt-oss-120b,PIGEON POINT,8.28,1,8.0,56,3.4
+with_data,groq,openai/gpt-oss-120b,COMMERCIAL DUWAMISH,5.86,1,6.0,57,2.4
+with_data,groq,openai/gpt-oss-120b,COMMERCIAL HARBOR ISLAND,3.53,1,4.0,58,13.3
+with_data,gemini,gemini-3.5-flash,CAPITOL HILL,460.47,5,460.0,1,0.1
+with_data,gemini,gemini-3.5-flash,DOWNTOWN COMMERCIAL,420.53,5,421.0,2,0.1
+with_data,gemini,gemini-3.5-flash,QUEEN ANNE,374.97,5,375.0,3,0.0
+with_data,gemini,gemini-3.5-flash,NORTHGATE,373.25,5,373.0,4,0.1
+with_data,gemini,gemini-3.5-flash,SLU/CASCADE,319.08,5,319.0,5,0.0
+with_data,gemini,gemini-3.5-flash,UNIVERSITY,298.22,5,298.0,6,0.1
+with_data,gemini,gemini-3.5-flash,ROOSEVELT/RAVENNA,268.67,5,269.0,7,0.1
+with_data,gemini,gemini-3.5-flash,FIRST HILL,254.83,5,255.0,8,0.1
+with_data,gemini,gemini-3.5-flash,BALLARD SOUTH,252.58,5,253.0,9,0.2
+with_data,gemini,gemini-3.5-flash,CHINATOWN/INTERNATIONAL DISTRICT,215.28,5,215.0,10,0.1
+with_data,gemini,gemini-3.5-flash,CENTRAL AREA/SQUIRE PARK,194.75,5,195.0,11,0.1
+with_data,gemini,gemini-3.5-flash,LAKECITY,189.14,4,189.0,12,0.1
+with_data,gemini,gemini-3.5-flash,BELLTOWN,164.22,4,164.0,13,0.1
+with_data,gemini,gemini-3.5-flash,SANDPOINT,160.28,4,160.0,14,0.2
+with_data,gemini,gemini-3.5-flash,BITTERLAKE,155.39,4,155.0,15,0.3
+with_data,gemini,gemini-3.5-flash,NORTH BEACON HILL,147.94,4,148.0,16,0.0
+with_data,gemini,gemini-3.5-flash,SODO,138.56,4,139.0,17,0.3
+with_data,gemini,gemini-3.5-flash,GREENWOOD,133.31,4,133.0,18,0.2
+with_data,gemini,gemini-3.5-flash,ALASKA JUNCTION,124.83,4,125.0,19,0.1
+with_data,gemini,gemini-3.5-flash,MOUNT BAKER,124.58,4,125.0,20,0.3
+with_data,gemini,gemini-3.5-flash,FREMONT,123.56,4,124.0,21,0.4
+with_data,gemini,gemini-3.5-flash,ROXHILL/WESTWOOD/ARBOR HEIGHTS,120.75,4,121.0,22,0.2
+with_data,gemini,gemini-3.5-flash,BALLARD NORTH,115.83,3,116.0,23,0.1
+with_data,gemini,gemini-3.5-flash,WALLINGFORD,115.78,3,116.0,24,0.2
+with_data,gemini,gemini-3.5-flash,MADRONA/LESCHI,104.42,3,104.0,25,0.4
+with_data,gemini,gemini-3.5-flash,MAGNOLIA,102.5,3,103.0,26,0.5
+with_data,gemini,gemini-3.5-flash,GEORGETOWN,102.31,3,102.0,27,0.3
+with_data,gemini,gemini-3.5-flash,PIONEER SQUARE,99.42,3,99.0,28,0.4
+with_data,gemini,gemini-3.5-flash,JUDKINS PARK/NORTH BEACON HILL,90.69,3,91.0,29,0.3
+with_data,gemini,gemini-3.5-flash,BRIGHTON/DUNLAP,90.42,3,90.0,30,0.5
+with_data,gemini,gemini-3.5-flash,RAINIER BEACH,82.31,3,82.0,31,0.4
+with_data,gemini,gemini-3.5-flash,HIGHLAND PARK,74.69,3,75.0,32,0.4
+with_data,gemini,gemini-3.5-flash,NORTH ADMIRAL,71.14,3,71.0,33,0.2
+with_data,gemini,gemini-3.5-flash,MID BEACON HILL,64.06,2,64.0,34,0.1
+with_data,gemini,gemini-3.5-flash,MORGAN,61.92,2,62.0,35,0.1
+with_data,gemini,gemini-3.5-flash,HIGH POINT,57.5,2,58.0,36,0.9
+with_data,gemini,gemini-3.5-flash,NORTH DELRIDGE,54.75,2,55.0,37,0.5
+with_data,gemini,gemini-3.5-flash,CLAREMONT/RAINIER VISTA,52.39,2,52.0,38,0.7
+with_data,gemini,gemini-3.5-flash,MILLER PARK,49.75,2,50.0,39,0.5
+with_data,gemini,gemini-3.5-flash,NEW HOLLY,48.53,2,49.0,40,1.0
+with_data,gemini,gemini-3.5-flash,EASTLAKE - WEST,48.28,2,48.0,41,0.6
+with_data,gemini,gemini-3.5-flash,SOUTH PARK,46.47,2,46.0,42,1.0
+with_data,gemini,gemini-3.5-flash,RAINIER VIEW,46.44,2,46.0,43,0.9
+with_data,gemini,gemini-3.5-flash,PHINNEY RIDGE,45.22,2,45.0,44,0.5
+with_data,gemini,gemini-3.5-flash,MONTLAKE/PORTAGE BAY,43.19,2,43.0,45,0.4
+with_data,gemini,gemini-3.5-flash,COLUMBIA CITY,43.17,2,43.0,46,0.4
+with_data,gemini,gemini-3.5-flash,ALKI,39.25,1,39.0,47,0.6
+with_data,gemini,gemini-3.5-flash,SOUTH DELRIDGE,30.22,1,30.0,48,0.7
+with_data,gemini,gemini-3.5-flash,LAKEWOOD/SEWARD PARK,29.83,1,30.0,49,0.6
+with_data,gemini,gemini-3.5-flash,HILLMAN CITY,29.53,1,30.0,50,1.6
+with_data,gemini,gemini-3.5-flash,GENESEE,25.33,1,25.0,51,1.3
+with_data,gemini,gemini-3.5-flash,SOUTH BEACON HILL,24.28,1,24.0,52,1.2
+with_data,gemini,gemini-3.5-flash,FAUNTLEROY SW,23.83,1,24.0,53,0.7
+with_data,gemini,gemini-3.5-flash,MADISON PARK,22.83,1,23.0,54,0.7
+with_data,gemini,gemini-3.5-flash,EASTLAKE - EAST,11.42,1,11.0,55,3.7
+with_data,gemini,gemini-3.5-flash,PIGEON POINT,8.28,1,8.0,56,3.4
+with_data,gemini,gemini-3.5-flash,COMMERCIAL DUWAMISH,5.86,1,6.0,57,2.4
+with_data,gemini,gemini-3.5-flash,COMMERCIAL HARBOR ISLAND,3.53,1,4.0,58,13.3

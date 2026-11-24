@@ -1,0 +1,8 @@
+Task 3 metrics
+Real figures: STAND-IN: Socrata 2022-2024 counts / 36 months (re-run with the Task 1 table before submitting)
+Generated: 2026-11-24T22:15:07.028639+00:00
+
+no_data   groq    openai/gpt-oss-120b    spearman(rating)= 0.386 spearman(estimate)= 0.372 top5=2/5 median_error=86.9% skipped=0 invented=0 invalid=0
+no_data   gemini  gemini-3.5-flash       spearman(rating)=  0.81 spearman(estimate)= 0.812 top5=3/5 median_error=63.5% skipped=0 invented=0 invalid=0
+with_data groq    openai/gpt-oss-120b    spearman(rating)= 0.952 spearman(estimate)=   1.0 top5=5/5 median_error=0.4% skipped=0 invented=0 invalid=0
+with_data gemini  gemini-3.5-flash       spearman(rating)=  0.98 spearman(estimate)=   1.0 top5=5/5 median_error=0.4% skipped=0 invented=0 invalid=0
