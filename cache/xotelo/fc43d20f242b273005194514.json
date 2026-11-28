@@ -1,0 +1,51 @@
+{
+  "retrieved_at": "2026-11-28T04:26:23.499458+00:00",
+  "url": "https://data.xotelo.com/api/rates",
+  "params": {
+    "adults": 2,
+    "chk_in": "2027-01-26",
+    "chk_out": "2027-01-29",
+    "hotel_key": "g60878-d223938"
+  },
+  "data": {
+    "error": null,
+    "result": {
+      "chk_in": "2027-01-26",
+      "chk_out": "2027-01-29",
+      "currency": "USD",
+      "rates": [
+        {
+          "code": "Marriott1",
+          "name": "Courtyard",
+          "rate": 157,
+          "tax": null
+        },
+        {
+          "code": "BookingCom",
+          "name": "Booking.com",
+          "rate": 157,
+          "tax": null
+        },
+        {
+          "code": "Vio",
+          "name": "Vio.com",
+          "rate": 157,
+          "tax": null
+        },
+        {
+          "code": "Agoda",
+          "name": "Agoda.com",
+          "rate": 157,
+          "tax": null
+        },
+        {
+          "code": "CtripTA",
+          "name": "Trip.com",
+          "rate": 157,
+          "tax": null
+        }
+      ]
+    },
+    "timestamp": 1795839979468
+  }
+}

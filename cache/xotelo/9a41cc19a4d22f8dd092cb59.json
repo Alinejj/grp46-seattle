@@ -1,0 +1,20 @@
+{
+  "retrieved_at": "2026-11-28T04:27:56.351781+00:00",
+  "url": "https://data.xotelo.com/api/rates",
+  "params": {
+    "adults": 2,
+    "chk_in": "2027-01-26",
+    "chk_out": "2027-01-29",
+    "hotel_key": "g60878-d34391863"
+  },
+  "data": {
+    "error": null,
+    "result": {
+      "chk_in": "2027-01-26",
+      "chk_out": "2027-01-29",
+      "currency": "USD",
+      "rates": []
+    },
+    "timestamp": 1795840068148
+  }
+}

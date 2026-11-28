@@ -1,0 +1,45 @@
+{
+  "retrieved_at": "2026-11-28T04:22:49.887895+00:00",
+  "url": "https://data.xotelo.com/api/rates",
+  "params": {
+    "adults": 2,
+    "chk_in": "2027-01-26",
+    "chk_out": "2027-01-29",
+    "hotel_key": "g60878-d100507"
+  },
+  "data": {
+    "error": null,
+    "result": {
+      "chk_in": "2027-01-26",
+      "chk_out": "2027-01-29",
+      "currency": "USD",
+      "rates": [
+        {
+          "code": "BookingCom",
+          "name": "Booking.com",
+          "rate": 249,
+          "tax": null
+        },
+        {
+          "code": "CtripTA",
+          "name": "Trip.com",
+          "rate": 234,
+          "tax": null
+        },
+        {
+          "code": "Agoda",
+          "name": "Agoda.com",
+          "rate": 216,
+          "tax": null
+        },
+        {
+          "code": "TravelClickCPA",
+          "name": "Official Hotel",
+          "rate": 224,
+          "tax": null
+        }
+      ]
+    },
+    "timestamp": 1795839765864
+  }
+}

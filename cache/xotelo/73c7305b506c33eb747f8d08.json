@@ -1,0 +1,45 @@
+{
+  "retrieved_at": "2026-11-28T04:23:39.858381+00:00",
+  "url": "https://data.xotelo.com/api/rates",
+  "params": {
+    "adults": 2,
+    "chk_in": "2027-01-26",
+    "chk_out": "2027-01-29",
+    "hotel_key": "g60878-d1723585"
+  },
+  "data": {
+    "error": null,
+    "result": {
+      "chk_in": "2027-01-26",
+      "chk_out": "2027-01-29",
+      "currency": "USD",
+      "rates": [
+        {
+          "code": "WIHP",
+          "name": "Staypineapple.com",
+          "rate": 179,
+          "tax": null
+        },
+        {
+          "code": "BookingCom",
+          "name": "Booking.com",
+          "rate": 154,
+          "tax": null
+        },
+        {
+          "code": "Agoda",
+          "name": "Agoda.com",
+          "rate": 130,
+          "tax": null
+        },
+        {
+          "code": "CtripTA",
+          "name": "Trip.com",
+          "rate": 134,
+          "tax": null
+        }
+      ]
+    },
+    "timestamp": 1795839815835
+  }
+}

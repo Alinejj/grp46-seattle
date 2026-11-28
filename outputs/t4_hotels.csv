@@ -1,0 +1,20 @@
+hotel,hotel_key,lat,lon,neighbourhood,agoda_com,booking_com,embassy,hampton,hotel_website,ihg,klook,mayflower_park,official_hotel,official_site,renaissance_hotels,staypineapple_com,trip_com,vio_com,cheapest_site,cheapest_price,stay_total,in_budget,in_top5_incident_area,price_retrieved_at
+Executive Hotel Pacific Downtown Seattle,g60878-d100547,47.607094,-122.333405,DOWNTOWN COMMERCIAL,84.0,105.0,,,,,,,,,,,105.0,,Agoda.com,84.0,252.0,True,True,2026-11-28 04:23 UTC
+Mayflower Park Hotel,g60878-d100542,47.612198,-122.33805,DOWNTOWN COMMERCIAL,94.0,159.0,,,,,,158.0,,,,,137.0,133.0,Agoda.com,94.0,282.0,True,True,2026-11-28 04:23 UTC
+Coast Seattle Downtown Hotel By APA,g60878-d100560,47.609406,-122.33327,DOWNTOWN COMMERCIAL,94.0,103.0,,,,,,,103.0,,,,,100.0,Agoda.com,94.0,282.0,True,True,2026-11-28 04:23 UTC
+Belltown Inn,g60878-d1101223,47.614693,-122.34509,BELLTOWN,101.0,115.0,,,112.0,,125.0,,,,,,109.0,,Agoda.com,101.0,303.0,True,False,2026-11-28 04:23 UTC
+Crowne Plaza Seattle-downtown By IHG,g60878-d100527,47.608208,-122.332115,DOWNTOWN COMMERCIAL,112.0,112.0,,,,128.0,,,,,,,128.0,,Booking.com,112.0,336.0,True,True,2026-11-28 04:22 UTC
+Holiday Inn Express & Suites Seattle Downtown - Lake Union by IHG,g60878-d223219,47.62026,-122.342735,SLU/CASCADE,134.0,134.0,,,,134.0,,,,,,,134.0,113.0,Vio.com,113.0,339.0,True,True,2026-11-28 04:23 UTC
+Hotel Sorrento,g60878-d100569,47.608994,-122.32684,FIRST HILL,131.0,140.0,,,,,,,,140.0,,,126.0,117.0,Vio.com,117.0,351.0,True,False,2026-11-28 04:24 UTC
+Hotel Max,g60878-d100587,47.61429,-122.33672,SLU/CASCADE,126.0,126.0,,,,,,,,,,,128.0,118.0,Vio.com,118.0,354.0,True,True,2026-11-28 04:23 UTC
+The Paramount Hotel,g60878-d112429,47.613182,-122.33348,DOWNTOWN COMMERCIAL,123.0,150.0,,,,,,,128.0,,,,150.0,122.0,Vio.com,122.0,366.0,True,True,2026-11-28 04:22 UTC
+"Staypineapple, The Maxwell Hotel, Seattle Center",g60878-d1723585,47.62557,-122.350815,QUEEN ANNE,130.0,154.0,,,,,,,,,,179.0,134.0,,Agoda.com,130.0,390.0,True,True,2026-11-28 04:23 UTC
+Mediterranean Inn,g60878-d258824,47.623116,-122.356865,QUEEN ANNE,131.0,168.0,,,164.0,,,,,,,,159.0,135.0,Agoda.com,131.0,393.0,True,True,2026-11-28 04:22 UTC
+Hampton Inn & Suites Seattle-Downtown,g60878-d123036,47.6261,-122.34691,QUEEN ANNE,131.0,131.0,,131.0,,,,,,,,,131.0,,Booking.com,131.0,393.0,True,True,2026-11-28 04:23 UTC
+Silver Cloud Hotel - Seattle Lake Union,g60878-d123022,47.629826,-122.32897,SLU/CASCADE,139.0,139.0,,,,,,,,,,,,,Booking.com,139.0,417.0,True,True,2026-11-28 04:23 UTC
+Silver Cloud Hotel - Seattle Broadway,g60878-d281658,47.61157,-122.32065,CAPITOL HILL,159.0,159.0,,,,,,,,,,,,,Booking.com,159.0,477.0,True,True,2026-11-28 04:23 UTC
+Silver Cloud Hotel - Seattle Stadium,g60878-d582371,47.592674,-122.33404,PIONEER SQUARE,189.0,189.0,,,,,,,,,,,,,Booking.com,189.0,567.0,True,False,2026-11-28 04:23 UTC
+Renaissance Seattle Hotel,g60878-d100554,47.606636,-122.33075,DOWNTOWN COMMERCIAL,215.0,215.0,,,,,,,,,220.0,,215.0,215.0,Booking.com,215.0,645.0,False,True,2026-11-28 04:23 UTC
+Inn at the Market,g60878-d100507,47.609783,-122.34153,DOWNTOWN COMMERCIAL,216.0,249.0,,,,,,,224.0,,,,234.0,,Agoda.com,216.0,648.0,False,True,2026-11-28 04:22 UTC
+Embassy Suites by Hilton Seattle Downtown Pioneer Square,g60878-d13142954,47.59808,-122.33093,PIONEER SQUARE,224.0,227.0,227.0,,,,,,,,,,227.0,,Agoda.com,224.0,672.0,False,False,2026-11-28 04:23 UTC
+Hyatt Regency Seattle,g60878-d15337161,47.614403,-122.334015,SLU/CASCADE,,,,,,,,,,,,,,450.0,Vio.com,450.0,1350.0,False,True,2026-11-28 04:24 UTC

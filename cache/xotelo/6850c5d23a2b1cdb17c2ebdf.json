@@ -1,0 +1,33 @@
+{
+  "retrieved_at": "2026-11-28T04:27:40.468858+00:00",
+  "url": "https://data.xotelo.com/api/rates",
+  "params": {
+    "adults": 2,
+    "chk_in": "2027-01-26",
+    "chk_out": "2027-01-29",
+    "hotel_key": "g60878-d28607282"
+  },
+  "data": {
+    "error": null,
+    "result": {
+      "chk_in": "2027-01-26",
+      "chk_out": "2027-01-29",
+      "currency": "USD",
+      "rates": [
+        {
+          "code": "BookingCom",
+          "name": "Booking.com",
+          "rate": 82,
+          "tax": null
+        },
+        {
+          "code": "Agoda",
+          "name": "Agoda.com",
+          "rate": 82,
+          "tax": null
+        }
+      ]
+    },
+    "timestamp": 1795840056576
+  }
+}

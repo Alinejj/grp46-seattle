@@ -1,0 +1,45 @@
+{
+  "retrieved_at": "2026-11-28T04:26:43.768246+00:00",
+  "url": "https://data.xotelo.com/api/rates",
+  "params": {
+    "adults": 2,
+    "chk_in": "2027-01-26",
+    "chk_out": "2027-01-29",
+    "hotel_key": "g60878-d100586"
+  },
+  "data": {
+    "error": null,
+    "result": {
+      "chk_in": "2027-01-26",
+      "chk_out": "2027-01-29",
+      "currency": "USD",
+      "rates": [
+        {
+          "code": "Marriott1",
+          "name": "WHotels.com",
+          "rate": 307,
+          "tax": null
+        },
+        {
+          "code": "BookingCom",
+          "name": "Booking.com",
+          "rate": 310,
+          "tax": null
+        },
+        {
+          "code": "Agoda",
+          "name": "Agoda.com",
+          "rate": 300,
+          "tax": null
+        },
+        {
+          "code": "CtripTA",
+          "name": "Trip.com",
+          "rate": 300,
+          "tax": null
+        }
+      ]
+    },
+    "timestamp": 1795839999539
+  }
+}

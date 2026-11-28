@@ -1,0 +1,51 @@
+{
+  "retrieved_at": "2026-11-28T04:25:16.728045+00:00",
+  "url": "https://data.xotelo.com/api/rates",
+  "params": {
+    "adults": 2,
+    "chk_in": "2027-01-26",
+    "chk_out": "2027-01-29",
+    "hotel_key": "g60878-d13998848"
+  },
+  "data": {
+    "error": null,
+    "result": {
+      "chk_in": "2027-01-26",
+      "chk_out": "2027-01-29",
+      "currency": "USD",
+      "rates": [
+        {
+          "code": "BookingCom",
+          "name": "Booking.com",
+          "rate": 198,
+          "tax": null
+        },
+        {
+          "code": "CtripTA",
+          "name": "Trip.com",
+          "rate": 194,
+          "tax": null
+        },
+        {
+          "code": "Agoda",
+          "name": "Agoda.com",
+          "rate": 169,
+          "tax": null
+        },
+        {
+          "code": "HiltonImages",
+          "name": "Curio",
+          "rate": 198,
+          "tax": null
+        },
+        {
+          "code": "Vio",
+          "name": "Vio.com",
+          "rate": 205,
+          "tax": null
+        }
+      ]
+    },
+    "timestamp": 1795839912497
+  }
+}

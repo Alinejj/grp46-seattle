@@ -1,0 +1,113 @@
+near_hotel,hotel,hotel_key,distance_km,cheapest_price,cheapest_site,stay_total,neighbourhood,in_top5_incident_area,price_retrieved_at
+Inn at the Market,Travelodge by Wyndham Seattle by the Space Needle,g60878-d100574,1.21,67.0,Agoda.com,201.0,SLU/CASCADE,True,2026-11-28 04:25 UTC
+Inn at the Market,Best Western Plus Pioneer Square Hotel Downtown,g60878-d72572,1.03,83.0,Booking.com,249.0,PIONEER SQUARE,False,2026-11-28 04:28 UTC
+Inn at the Market,Executive Hotel Pacific Downtown Seattle,g60878-d100547,0.68,84.0,Agoda.com,252.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:23 UTC
+Inn at the Market,citizenM Seattle South Lake,g60878-d15236226,1.15,89.0,CitizenM,267.0,SLU/CASCADE,True,2026-11-28 04:24 UTC
+Inn at the Market,Mayflower Park Hotel,g60878-d100542,0.37,94.0,Agoda.com,282.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:23 UTC
+Inn at the Market,Coast Seattle Downtown Hotel By APA,g60878-d100560,0.62,94.0,Agoda.com,282.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:23 UTC
+Inn at the Market,La Quinta Inn & Suites by Wyndham Seattle Downtown,g60878-d217807,0.91,97.0,Agoda.com,291.0,SLU/CASCADE,True,2026-11-28 04:26 UTC
+Inn at the Market,Belltown Inn,g60878-d1101223,0.61,101.0,Agoda.com,303.0,BELLTOWN,False,2026-11-28 04:23 UTC
+Inn at the Market,The Oxford Seattle,g60878-d11925816,0.13,104.0,Vio.com,312.0,BELLTOWN,False,2026-11-28 04:25 UTC
+Inn at the Market,The Boylston Hotel Capitol Hill,g60878-d34247123,1.44,107.0,Vio.com,321.0,CAPITOL HILL,True,2026-11-28 04:24 UTC
+Inn at the Market,Inn at Virginia Mason,g60878-d100538,1.1,110.0,Agoda.com,330.0,FIRST HILL,False,2026-11-28 04:25 UTC
+Inn at the Market,citizenM Seattle Pioneer Square,g60878-d24053104,1.01,111.0,Booking.com,333.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:25 UTC
+Inn at the Market,Crowne Plaza Seattle-downtown By IHG,g60878-d100527,0.73,112.0,Booking.com,336.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:22 UTC
+Inn at the Market,Holiday Inn Express & Suites Seattle Downtown - Lake Union by IHG,g60878-d223219,1.17,113.0,Vio.com,339.0,SLU/CASCADE,True,2026-11-28 04:23 UTC
+Inn at the Market,"Staypineapple, Hotel FIVE, Downtown Seattle",g60878-d124048,0.64,116.0,Agoda.com,348.0,SLU/CASCADE,True,2026-11-28 04:25 UTC
+Inn at the Market,Hotel Sorrento,g60878-d100569,1.1,117.0,Vio.com,351.0,FIRST HILL,False,2026-11-28 04:24 UTC
+Inn at the Market,Hotel Max,g60878-d100587,0.62,118.0,Vio.com,354.0,SLU/CASCADE,True,2026-11-28 04:23 UTC
+Inn at the Market,Warwick Seattle,g60878-d100505,0.47,120.0,Agoda.com,360.0,SLU/CASCADE,True,2026-11-28 04:24 UTC
+Inn at the Market,The Paramount Hotel,g60878-d112429,0.71,122.0,Vio.com,366.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:22 UTC
+Inn at the Market,SpringHill Suites by Marriott Seattle Downtown/South Lake Union,g60878-d115754,1.25,128.0,Booking.com,384.0,SLU/CASCADE,True,2026-11-28 04:27 UTC
+Inn at the Market,"Staypineapple, The Maxwell Hotel, Seattle Center",g60878-d1723585,1.89,130.0,Agoda.com,390.0,QUEEN ANNE,True,2026-11-28 04:23 UTC
+Inn at the Market,Moxy Seattle Downtown,g60878-d12864775,1.56,131.0,Moxy Hotels,393.0,SLU/CASCADE,True,2026-11-28 04:27 UTC
+Inn at the Market,Hampton Inn & Suites Seattle-Downtown,g60878-d123036,1.86,131.0,Booking.com,393.0,QUEEN ANNE,True,2026-11-28 04:23 UTC
+Inn at the Market,Mediterranean Inn,g60878-d258824,1.88,131.0,Agoda.com,393.0,QUEEN ANNE,True,2026-11-28 04:22 UTC
+Inn at the Market,Homewood Suites By Hilton Seattle Downtown,g60878-d123003,1.79,138.0,Agoda.com,414.0,QUEEN ANNE,True,2026-11-28 04:26 UTC
+Inn at the Market,EVEN Hotel Seattle Downtown - Lake Union by IHG,g60878-d13668258,1.71,143.0,Vio.com,429.0,SLU/CASCADE,True,2026-11-28 04:25 UTC
+Inn at the Market,Kimpton Hotel Vintage Seattle by IHG,g60878-d100585,0.72,148.0,Vio.com,444.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:26 UTC
+Inn at the Market,The Alexis Royal Sonesta Hotel Seattle,g60878-d112412,0.65,157.0,Trip.com,471.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:25 UTC
+Inn at the Market,Courtyard by Marriott Seattle Downtown/Lake Union,g60878-d223938,1.97,157.0,Courtyard,471.0,QUEEN ANNE,True,2026-11-28 04:26 UTC
+Inn at the Market,Hotel Ändra Seattle MGallery Hotel Collection,g60878-d100565,0.42,158.0,MGallery,474.0,SLU/CASCADE,True,2026-11-28 04:24 UTC
+Inn at the Market,Silver Cloud Hotel - Seattle Broadway,g60878-d281658,1.58,159.0,Booking.com,477.0,CAPITOL HILL,True,2026-11-28 04:23 UTC
+Inn at the Market,Element by Marriott Seattle Downtown,g60878-d33228406,1.7,161.0,Booking.com,483.0,SLU/CASCADE,True,2026-11-28 04:27 UTC
+Inn at the Market,"The Sound Hotel Seattle Belltown, Tapestry Collection By Hilton",g60878-d15308718,0.51,163.0,Agoda.com,489.0,SLU/CASCADE,True,2026-11-28 04:25 UTC
+Inn at the Market,Staybridge Suites Seattle Downtown - Lake Union by IHG,g60878-d13428699,1.67,163.0,IHG,489.0,SLU/CASCADE,True,2026-11-28 04:26 UTC
+Inn at the Market,"The Charter Hotel Seattle, Curio Collection By Hilton",g60878-d13998848,0.16,169.0,Agoda.com,507.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:25 UTC
+Inn at the Market,Arctic Club Hotel,g60878-d677260,0.99,169.0,Official Site,507.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:24 UTC
+Inn at the Market,Level Seattle - South Lake Union,g60878-d23934771,1.11,176.0,Agoda.com,528.0,SLU/CASCADE,True,2026-11-28 04:27 UTC
+Inn at the Market,The State Hotel,g60878-d15458320,0.17,188.0,Vio.com,564.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:26 UTC
+Inn at the Market,Silver Cloud Hotel - Seattle Stadium,g60878-d582371,1.98,189.0,Booking.com,567.0,PIONEER SQUARE,False,2026-11-28 04:23 UTC
+Inn at the Market,Hyatt House Seattle/downtown,g60878-d7736527,1.24,192.0,Booking.com,576.0,SLU/CASCADE,True,2026-11-28 04:25 UTC
+Inn at the Market,Moore Hotel,g60878-d100544,0.21,201.0,Booking.com,603.0,BELLTOWN,False,2026-11-28 04:27 UTC
+Inn at the Market,"Astra Hotel, Seattle, a Tribute Portfolio Hotel",g60878-d23869561,1.3,210.0,Agoda.com,630.0,SLU/CASCADE,True,2026-11-28 04:25 UTC
+Inn at the Market,Renaissance Seattle Hotel,g60878-d100554,0.88,215.0,Booking.com,645.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:23 UTC
+Inn at the Market,Residence Inn by Marriott Seattle Downtown/Convention Center,g60878-d12970371,0.9,221.0,Vio.com,663.0,SLU/CASCADE,True,2026-11-28 04:25 UTC
+Inn at the Market,Embassy Suites by Hilton Seattle Downtown Pioneer Square,g60878-d13142954,1.52,224.0,Agoda.com,672.0,PIONEER SQUARE,False,2026-11-28 04:23 UTC
+Inn at the Market,Hotel 1000 - The Unbound Collection by Hyatt,g60878-d613399,0.66,240.0,Agoda.com,720.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:28 UTC
+Inn at the Market,Grand Hyatt Seattle,g60878-d224783,0.69,241.0,Booking.com,723.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:24 UTC
+Inn at the Market,Hyatt At Olive 8,g60878-d1200603,0.71,243.0,Booking.com,729.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:26 UTC
+Inn at the Market,Sheraton Grand Seattle,g60878-d100562,0.61,264.0,Agoda.com,792.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:24 UTC
+Inn at the Market,"Thompson Seattle, by Hyatt",g60878-d10031096,0.09,275.0,Trip.com,825.0,BELLTOWN,False,2026-11-28 04:26 UTC
+Inn at the Market,Seattle Marriott Waterfront,g60878-d268228,0.45,284.0,Booking.com,852.0,BELLTOWN,False,2026-11-28 04:24 UTC
+Inn at the Market,The Westin Seattle,g60878-d100570,0.47,286.0,Agoda.com,858.0,SLU/CASCADE,True,2026-11-28 04:24 UTC
+Inn at the Market,W Seattle,g60878-d100586,0.64,300.0,Agoda.com,900.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:26 UTC
+Inn at the Market,Fairmont Olympic Hotel - Seattle,g60878-d281828,0.61,383.0,Trip.com,1149.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:24 UTC
+Inn at the Market,Hyatt Regency Seattle,g60878-d15337161,0.76,450.0,Vio.com,1350.0,SLU/CASCADE,True,2026-11-28 04:24 UTC
+Inn at the Market,Four Seasons Hotel Seattle,g60878-d1152288,0.29,533.0,FourSeasons.com,1599.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:28 UTC
+Inn at the Market,Lotte Hotel Seattle,g60878-d21059395,0.95,798.0,Agoda.com,2394.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:27 UTC
+The Paramount Hotel,Travelodge by Wyndham Seattle by the Space Needle,g60878-d100574,1.16,67.0,Agoda.com,201.0,SLU/CASCADE,True,2026-11-28 04:25 UTC
+The Paramount Hotel,Best Western Plus Pioneer Square Hotel Downtown,g60878-d72572,1.3,83.0,Booking.com,249.0,PIONEER SQUARE,False,2026-11-28 04:28 UTC
+The Paramount Hotel,Executive Hotel Pacific Downtown Seattle,g60878-d100547,0.68,84.0,Agoda.com,252.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:23 UTC
+The Paramount Hotel,citizenM Seattle South Lake,g60878-d15236226,0.86,89.0,CitizenM,267.0,SLU/CASCADE,True,2026-11-28 04:24 UTC
+The Paramount Hotel,Mayflower Park Hotel,g60878-d100542,0.36,94.0,Agoda.com,282.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:23 UTC
+The Paramount Hotel,Coast Seattle Downtown Hotel By APA,g60878-d100560,0.42,94.0,Agoda.com,282.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:23 UTC
+The Paramount Hotel,La Quinta Inn & Suites by Wyndham Seattle Downtown,g60878-d217807,0.71,97.0,Agoda.com,291.0,SLU/CASCADE,True,2026-11-28 04:26 UTC
+The Paramount Hotel,Belltown Inn,g60878-d1101223,0.89,101.0,Agoda.com,303.0,BELLTOWN,False,2026-11-28 04:23 UTC
+The Paramount Hotel,The Oxford Seattle,g60878-d11925816,0.67,104.0,Vio.com,312.0,BELLTOWN,False,2026-11-28 04:25 UTC
+The Paramount Hotel,The Boylston Hotel Capitol Hill,g60878-d34247123,0.75,107.0,Vio.com,321.0,CAPITOL HILL,True,2026-11-28 04:24 UTC
+The Paramount Hotel,Inn at Virginia Mason,g60878-d100538,0.61,110.0,Agoda.com,330.0,FIRST HILL,False,2026-11-28 04:25 UTC
+The Paramount Hotel,citizenM Seattle Pioneer Square,g60878-d24053104,1.27,111.0,Booking.com,333.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:25 UTC
+The Paramount Hotel,Crowne Plaza Seattle-downtown By IHG,g60878-d100527,0.56,112.0,Booking.com,336.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:22 UTC
+The Paramount Hotel,Holiday Inn Express & Suites Seattle Downtown - Lake Union by IHG,g60878-d223219,1.05,113.0,Vio.com,339.0,SLU/CASCADE,True,2026-11-28 04:23 UTC
+The Paramount Hotel,"Staypineapple, Hotel FIVE, Downtown Seattle",g60878-d124048,0.68,116.0,Agoda.com,348.0,SLU/CASCADE,True,2026-11-28 04:25 UTC
+The Paramount Hotel,Hotel Sorrento,g60878-d100569,0.68,117.0,Vio.com,351.0,FIRST HILL,False,2026-11-28 04:24 UTC
+The Paramount Hotel,Hotel Max,g60878-d100587,0.27,118.0,Vio.com,354.0,SLU/CASCADE,True,2026-11-28 04:23 UTC
+The Paramount Hotel,Warwick Seattle,g60878-d100505,0.56,120.0,Agoda.com,360.0,SLU/CASCADE,True,2026-11-28 04:24 UTC
+The Paramount Hotel,SpringHill Suites by Marriott Seattle Downtown/South Lake Union,g60878-d115754,0.58,128.0,Booking.com,384.0,SLU/CASCADE,True,2026-11-28 04:27 UTC
+The Paramount Hotel,"Staypineapple, The Maxwell Hotel, Seattle Center",g60878-d1723585,1.89,130.0,Agoda.com,390.0,QUEEN ANNE,True,2026-11-28 04:23 UTC
+The Paramount Hotel,Moxy Seattle Downtown,g60878-d12864775,1.15,131.0,Moxy Hotels,393.0,SLU/CASCADE,True,2026-11-28 04:27 UTC
+The Paramount Hotel,Hampton Inn & Suites Seattle-Downtown,g60878-d123036,1.75,131.0,Booking.com,393.0,QUEEN ANNE,True,2026-11-28 04:23 UTC
+The Paramount Hotel,Silver Cloud Hotel - Seattle Lake Union,g60878-d123022,1.88,139.0,Booking.com,417.0,SLU/CASCADE,True,2026-11-28 04:23 UTC
+The Paramount Hotel,EVEN Hotel Seattle Downtown - Lake Union by IHG,g60878-d13668258,1.25,143.0,Vio.com,429.0,SLU/CASCADE,True,2026-11-28 04:25 UTC
+The Paramount Hotel,Kimpton Hotel Vintage Seattle by IHG,g60878-d100585,0.62,148.0,Vio.com,444.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:26 UTC
+The Paramount Hotel,The Alexis Royal Sonesta Hotel Seattle,g60878-d112412,0.96,157.0,Trip.com,471.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:25 UTC
+The Paramount Hotel,Courtyard by Marriott Seattle Downtown/Lake Union,g60878-d223938,1.65,157.0,Courtyard,471.0,QUEEN ANNE,True,2026-11-28 04:26 UTC
+The Paramount Hotel,Hotel Ändra Seattle MGallery Hotel Collection,g60878-d100565,0.5,158.0,MGallery,474.0,SLU/CASCADE,True,2026-11-28 04:24 UTC
+The Paramount Hotel,Silver Cloud Hotel - Seattle Broadway,g60878-d281658,0.98,159.0,Booking.com,477.0,CAPITOL HILL,True,2026-11-28 04:23 UTC
+The Paramount Hotel,Element by Marriott Seattle Downtown,g60878-d33228406,1.55,161.0,Booking.com,483.0,SLU/CASCADE,True,2026-11-28 04:27 UTC
+The Paramount Hotel,"The Sound Hotel Seattle Belltown, Tapestry Collection By Hilton",g60878-d15308718,0.65,163.0,Agoda.com,489.0,SLU/CASCADE,True,2026-11-28 04:25 UTC
+The Paramount Hotel,Staybridge Suites Seattle Downtown - Lake Union by IHG,g60878-d13428699,1.21,163.0,IHG,489.0,SLU/CASCADE,True,2026-11-28 04:26 UTC
+The Paramount Hotel,"The Charter Hotel Seattle, Curio Collection By Hilton",g60878-d13998848,0.57,169.0,Agoda.com,507.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:25 UTC
+The Paramount Hotel,Arctic Club Hotel,g60878-d677260,1.06,169.0,Official Site,507.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:24 UTC
+The Paramount Hotel,Level Seattle - South Lake Union,g60878-d23934771,0.65,176.0,Agoda.com,528.0,SLU/CASCADE,True,2026-11-28 04:27 UTC
+The Paramount Hotel,The State Hotel,g60878-d15458320,0.61,188.0,Vio.com,564.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:26 UTC
+The Paramount Hotel,Hyatt House Seattle/downtown,g60878-d7736527,1.32,192.0,Booking.com,576.0,SLU/CASCADE,True,2026-11-28 04:25 UTC
+The Paramount Hotel,Moore Hotel,g60878-d100544,0.61,201.0,Booking.com,603.0,BELLTOWN,False,2026-11-28 04:27 UTC
+The Paramount Hotel,"Astra Hotel, Seattle, a Tribute Portfolio Hotel",g60878-d23869561,0.91,210.0,Agoda.com,630.0,SLU/CASCADE,True,2026-11-28 04:25 UTC
+The Paramount Hotel,Renaissance Seattle Hotel,g60878-d100554,0.76,215.0,Booking.com,645.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:23 UTC
+The Paramount Hotel,Inn at the Market,g60878-d100507,0.71,216.0,Agoda.com,648.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:22 UTC
+The Paramount Hotel,Residence Inn by Marriott Seattle Downtown/Convention Center,g60878-d12970371,0.26,221.0,Vio.com,663.0,SLU/CASCADE,True,2026-11-28 04:25 UTC
+The Paramount Hotel,Embassy Suites by Hilton Seattle Downtown Pioneer Square,g60878-d13142954,1.69,224.0,Agoda.com,672.0,PIONEER SQUARE,False,2026-11-28 04:23 UTC
+The Paramount Hotel,Hotel 1000 - The Unbound Collection by Hyatt,g60878-d613399,0.92,240.0,Agoda.com,720.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:28 UTC
+The Paramount Hotel,Grand Hyatt Seattle,g60878-d224783,0.05,241.0,Booking.com,723.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:24 UTC
+The Paramount Hotel,Hyatt At Olive 8,g60878-d1200603,0.09,243.0,Booking.com,729.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:26 UTC
+The Paramount Hotel,Sheraton Grand Seattle,g60878-d100562,0.31,264.0,Agoda.com,792.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:24 UTC
+The Paramount Hotel,"Thompson Seattle, by Hyatt",g60878-d10031096,0.65,275.0,Trip.com,825.0,BELLTOWN,False,2026-11-28 04:26 UTC
+The Paramount Hotel,Seattle Marriott Waterfront,g60878-d268228,1.07,284.0,Booking.com,852.0,BELLTOWN,False,2026-11-28 04:24 UTC
+The Paramount Hotel,The Westin Seattle,g60878-d100570,0.32,286.0,Agoda.com,858.0,SLU/CASCADE,True,2026-11-28 04:24 UTC
+The Paramount Hotel,W Seattle,g60878-d100586,0.63,300.0,Agoda.com,900.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:26 UTC
+The Paramount Hotel,Fairmont Olympic Hotel - Seattle,g60878-d281828,0.58,383.0,Trip.com,1149.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:24 UTC
+The Paramount Hotel,Hyatt Regency Seattle,g60878-d15337161,0.14,450.0,Vio.com,1350.0,SLU/CASCADE,True,2026-11-28 04:24 UTC
+The Paramount Hotel,Four Seasons Hotel Seattle,g60878-d1152288,0.75,533.0,FourSeasons.com,1599.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:28 UTC
+The Paramount Hotel,Lotte Hotel Seattle,g60878-d21059395,0.91,798.0,Agoda.com,2394.0,DOWNTOWN COMMERCIAL,True,2026-11-28 04:27 UTC
