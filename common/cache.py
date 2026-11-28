@@ -19,14 +19,16 @@ MIN_GAP_SECONDS = 1.0          # spec wants 1 s between calls to the same api
 TIMEOUT_SECONDS = 30
 RETRY_WAIT_SECONDS = 3         # give a busy server a moment before the retry
 USER_AGENT = "SafeStay-CS4371-Group46"
-SECRET_WORDS = ("key", "token", "secret", "password", "auth", "signature")   # param names we never save
+# exact param names we never save, not "anything with key in it" or hotel_key gets dropped too
+SECRET_PARAMS = {"key", "api_key", "apikey", "token", "app_token", "$$app_token", "access_token",
+                 "secret", "client_secret", "password", "auth", "signature"}
 
 _last_call_time = {}                        # when we last called each service
 stats = {"api_calls": 0, "cache_hits": 0}   # task 7 counts these, same idea as llm.py
 
 
 def _is_secret(name):
-    return any(word in str(name).lower() for word in SECRET_WORDS)
+    return str(name).lower() in SECRET_PARAMS
 
 
 # drop the keys and sort, so the same search always gives the same file

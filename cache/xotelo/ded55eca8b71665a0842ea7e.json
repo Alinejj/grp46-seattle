@@ -1,0 +1,546 @@
+{
+  "retrieved_at": "2026-11-28T04:18:40.705098+00:00",
+  "url": "https://data.xotelo.com/api/list",
+  "params": {
+    "limit": 30,
+    "location_key": "g60878",
+    "offset": 0
+  },
+  "data": {
+    "error": null,
+    "result": {
+      "total_count": 298,
+      "limit": 30,
+      "offset": 0,
+      "list": [
+        {
+          "name": "Mediterranean Inn",
+          "key": "g60878-d258824",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d258824-Reviews-Mediterranean_Inn-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.3,
+            "count": 3151
+          },
+          "geo": {
+            "latitude": 47.623116,
+            "longitude": -122.356865
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/21/cc/0d/mediterranean-inn.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Inn at the Market",
+          "key": "g60878-d100507",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100507-Reviews-Inn_at_the_Market-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.8,
+            "count": 3921
+          },
+          "geo": {
+            "latitude": 47.609783,
+            "longitude": -122.34153
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/7c/e0/96/inn-at-the-market.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "The Paramount Hotel",
+          "key": "g60878-d112429",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d112429-Reviews-The_Paramount_Hotel-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.6,
+            "count": 2509
+          },
+          "geo": {
+            "latitude": 47.613182,
+            "longitude": -122.33348
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/cc/64/d1/caption.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Crowne Plaza Seattle-downtown By IHG",
+          "key": "g60878-d100527",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100527-Reviews-Crowne_Plaza_Seattle_downtown_By_IHG-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.1,
+            "count": 1908
+          },
+          "geo": {
+            "latitude": 47.608208,
+            "longitude": -122.332115
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/74/7a/0c/start-your-downtown-seattle.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Mayflower Park Hotel",
+          "key": "g60878-d100542",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100542-Reviews-Mayflower_Park_Hotel-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.5,
+            "count": 3308
+          },
+          "geo": {
+            "latitude": 47.612198,
+            "longitude": -122.33805
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/dc/d1/93/mayflower-park-hotel.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "The Edgewater Hotel",
+          "key": "g60878-d100567",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100567-Reviews-The_Edgewater_Hotel-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.1,
+            "count": 6821
+          },
+          "geo": {
+            "latitude": 47.61237,
+            "longitude": -122.352516
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/6e/1e/b9/the-edgewater-a-noble.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Hotel Max",
+          "key": "g60878-d100587",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100587-Reviews-Hotel_Max-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.2,
+            "count": 3248
+          },
+          "geo": {
+            "latitude": 47.61429,
+            "longitude": -122.33672
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/ea/6b/a5/hotel-max.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Embassy Suites by Hilton Seattle Downtown Pioneer Square",
+          "key": "g60878-d13142954",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d13142954-Reviews-Embassy_Suites_by_Hilton_Seattle_Downtown_Pioneer_Square-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.7,
+            "count": 2193
+          },
+          "geo": {
+            "latitude": 47.59808,
+            "longitude": -122.33093
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/bd/78/6b/embassy-suites-by-hilton.jpg",
+          "mentions": [],
+          "merchandising_labels": [
+            "Breakfast included"
+          ]
+        },
+        {
+          "name": "Silver Cloud Hotel - Seattle Stadium",
+          "key": "g60878-d582371",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d582371-Reviews-Silver_Cloud_Hotel_Seattle_Stadium-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.5,
+            "count": 2271
+          },
+          "geo": {
+            "latitude": 47.592674,
+            "longitude": -122.33404
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/55/44/0d/hotel-exterior.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Silver Cloud Hotel - Seattle Lake Union",
+          "key": "g60878-d123022",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d123022-Reviews-Silver_Cloud_Hotel_Seattle_Lake_Union-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.6,
+            "count": 2173
+          },
+          "geo": {
+            "latitude": 47.629826,
+            "longitude": -122.32897
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/60/34/41/hotel-exterior.jpg",
+          "mentions": [],
+          "merchandising_labels": [
+            "Breakfast included"
+          ]
+        },
+        {
+          "name": "Belltown Inn",
+          "key": "g60878-d1101223",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d1101223-Reviews-Belltown_Inn-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.2,
+            "count": 2883
+          },
+          "geo": {
+            "latitude": 47.614693,
+            "longitude": -122.34509
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/09/ca/43/belltown-inn.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Silver Cloud Hotel - Seattle Broadway",
+          "key": "g60878-d281658",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d281658-Reviews-Silver_Cloud_Hotel_Seattle_Broadway-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.6,
+            "count": 1585
+          },
+          "geo": {
+            "latitude": 47.61157,
+            "longitude": -122.32065
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/5f/80/b0/hotel-exterior.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Staypineapple, The Maxwell Hotel, Seattle Center",
+          "key": "g60878-d1723585",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d1723585-Reviews-Staypineapple_The_Maxwell_Hotel_Seattle_Center-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.6,
+            "count": 4740
+          },
+          "geo": {
+            "latitude": 47.62557,
+            "longitude": -122.350815
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/85/8b/da/the-maxwell-hotel-a-staypineap.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Hampton Inn & Suites Seattle-Downtown",
+          "key": "g60878-d123036",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d123036-Reviews-Hampton_Inn_Suites_Seattle_Downtown-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.3,
+            "count": 2505
+          },
+          "geo": {
+            "latitude": 47.6261,
+            "longitude": -122.34691
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/c9/df/11/exterior.jpg",
+          "mentions": [],
+          "merchandising_labels": [
+            "Breakfast included"
+          ]
+        },
+        {
+          "name": "Executive Hotel Pacific Downtown Seattle",
+          "key": "g60878-d100547",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100547-Reviews-Executive_Hotel_Pacific_Downtown_Seattle-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 3.9,
+            "count": 1222
+          },
+          "geo": {
+            "latitude": 47.607094,
+            "longitude": -122.333405
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/16/4c/5e/executive-hotel-pacific.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Holiday Inn Express & Suites Seattle Downtown - Lake Union by IHG",
+          "key": "g60878-d223219",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d223219-Reviews-Holiday_Inn_Express_Suites_Seattle_Downtown_Lake_Union_by_IHG-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 3.7,
+            "count": 758
+          },
+          "geo": {
+            "latitude": 47.62026,
+            "longitude": -122.342735
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/83/40/da/hotel-exterior.jpg",
+          "mentions": [],
+          "merchandising_labels": [
+            "Breakfast included"
+          ]
+        },
+        {
+          "name": "Coast Seattle Downtown Hotel By APA",
+          "key": "g60878-d100560",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100560-Reviews-Coast_Seattle_Downtown_Hotel_By_APA-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 3.6,
+            "count": 59
+          },
+          "geo": {
+            "latitude": 47.609406,
+            "longitude": -122.33327
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/b8/ca/02/coast-seattle-king-room.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Renaissance Seattle Hotel",
+          "key": "g60878-d100554",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100554-Reviews-Renaissance_Seattle_Hotel-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 3.9,
+            "count": 2452
+          },
+          "geo": {
+            "latitude": 47.606636,
+            "longitude": -122.33075
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/fb/bd/f7/lobby.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Hotel Sorrento",
+          "key": "g60878-d100569",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100569-Reviews-Hotel_Sorrento-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.4,
+            "count": 1975
+          },
+          "geo": {
+            "latitude": 47.608994,
+            "longitude": -122.32684
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/de/2f/dd/hotel-sorrento-seattle.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Hyatt Regency Seattle",
+          "key": "g60878-d15337161",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d15337161-Reviews-Hyatt_Regency_Seattle-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.5,
+            "count": 3029
+          },
+          "geo": {
+            "latitude": 47.614403,
+            "longitude": -122.334015
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/b0/3d/f9/king-suite-with-a-view.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Sheraton Grand Seattle",
+          "key": "g60878-d100562",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100562-Reviews-Sheraton_Grand_Seattle-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.2,
+            "count": 7102
+          },
+          "geo": {
+            "latitude": 47.61039,
+            "longitude": -122.33344
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/fe/f9/28/exterior.jpg",
+          "mentions": [],
+          "merchandising_labels": [
+            "Breakfast included"
+          ]
+        },
+        {
+          "name": "Fairmont Olympic Hotel - Seattle",
+          "key": "g60878-d281828",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d281828-Reviews-Fairmont_Olympic_Hotel_Seattle-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.4,
+            "count": 4442
+          },
+          "geo": {
+            "latitude": 47.608013,
+            "longitude": -122.33387
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/30/21/c7/hotel-lobby-and-olympic.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Warwick Seattle",
+          "key": "g60878-d100505",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100505-Reviews-Warwick_Seattle-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4,
+            "count": 2353
+          },
+          "geo": {
+            "latitude": 47.614014,
+            "longitude": -122.340836
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/60/b7/b2/caption.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Hotel Ändra Seattle MGallery Hotel Collection",
+          "key": "g60878-d100565",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100565-Reviews-Hotel_Andra_Seattle_MGallery_Hotel_Collection-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.5,
+            "count": 2514
+          },
+          "geo": {
+            "latitude": 47.613396,
+            "longitude": -122.34012
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/6b/81/be/hotel-andra-within-walking.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "The Westin Seattle",
+          "key": "g60878-d100570",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100570-Reviews-The_Westin_Seattle-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.1,
+            "count": 4368
+          },
+          "geo": {
+            "latitude": 47.613194,
+            "longitude": -122.33774
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/fb/be/20/grand-view-king-guest.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "citizenM Seattle South Lake",
+          "key": "g60878-d15236226",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d15236226-Reviews-CitizenM_Seattle_South_Lake-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.2,
+            "count": 668
+          },
+          "geo": {
+            "latitude": 47.61997,
+            "longitude": -122.338875
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/35/0c/b2/1c/lobby.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Hampton Inn & Suites by Hilton Seattle/Northgate",
+          "key": "g60878-d10627376",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d10627376-Reviews-Hampton_Inn_Suites_by_Hilton_Seattle_Northgate-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.3,
+            "count": 553
+          },
+          "geo": {
+            "latitude": 47.699257,
+            "longitude": -122.32814
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/35/45/8a/da/caption.jpg",
+          "mentions": [],
+          "merchandising_labels": [
+            "Breakfast included"
+          ]
+        },
+        {
+          "name": "Seattle Marriott Waterfront",
+          "key": "g60878-d268228",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d268228-Reviews-Seattle_Marriott_Waterfront-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4,
+            "count": 2376
+          },
+          "geo": {
+            "latitude": 47.61087,
+            "longitude": -122.3473
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/03/ac/4f/marriott-waterfront-seattle.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Arctic Club Hotel",
+          "key": "g60878-d677260",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d677260-Reviews-Arctic_Club_Hotel-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.5,
+            "count": 2953
+          },
+          "geo": {
+            "latitude": 47.60373,
+            "longitude": -122.33182
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/8f/97/16/caption.jpg",
+          "mentions": [],
+          "merchandising_labels": [
+            "Breakfast included"
+          ]
+        },
+        {
+          "name": "Grand Hyatt Seattle",
+          "key": "g60878-d224783",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d224783-Reviews-Grand_Hyatt_Seattle-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.5,
+            "count": 5070
+          },
+          "geo": {
+            "latitude": 47.61275,
+            "longitude": -122.33345
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/64/d2/41/grand-hyatt-seattle.jpg",
+          "mentions": [],
+          "merchandising_labels": [
+            "Breakfast included"
+          ]
+        }
+      ]
+    },
+    "timestamp": 1795839519378
+  }
+}

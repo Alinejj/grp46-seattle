@@ -123,6 +123,14 @@ def test_token_param_never_on_disk(fake):
     assert fake["calls"][0]["params"]["api_key"] == "SECRET123"   # the api still gets it, we just don't save it
 
 
+def test_normal_key_params_still_count(fake):
+    cache.get_json("xotelo", URL, {"hotel_key": "g1-d1"})
+    cache.get_json("xotelo", URL, {"hotel_key": "g1-d2"})
+    assert len(fake["calls"]) == 2
+    saved = next(fake["dir"].rglob("*.json")).read_text(encoding="utf-8")
+    assert "hotel_key" in saved
+
+
 def test_token_change_hits_same_cache_file(fake):
     cache.get_json("serpapi", URL, {"q": "x", "api_key": "one"})
     cache.get_json("serpapi", URL, {"q": "x", "api_key": "two"})

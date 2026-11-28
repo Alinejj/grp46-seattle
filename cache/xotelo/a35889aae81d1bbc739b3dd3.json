@@ -1,0 +1,548 @@
+{
+  "retrieved_at": "2026-11-28T04:18:43.097347+00:00",
+  "url": "https://data.xotelo.com/api/list",
+  "params": {
+    "limit": 30,
+    "location_key": "g60878",
+    "offset": 60
+  },
+  "data": {
+    "error": null,
+    "result": {
+      "total_count": 298,
+      "limit": 30,
+      "offset": 60,
+      "list": [
+        {
+          "name": "Best Motel",
+          "key": "g60878-d9775889",
+          "accommodation_type": "Small Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d9775889-Reviews-Best_Motel-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4,
+            "count": 5
+          },
+          "geo": {
+            "latitude": 47.717216,
+            "longitude": -122.34559
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/86/98/1f/7.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Moore Hotel",
+          "key": "g60878-d100544",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100544-Reviews-Moore_Hotel-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4,
+            "count": 1295
+          },
+          "geo": {
+            "latitude": 47.611664,
+            "longitude": -122.34131
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/b8/ac/16/moore-hotel.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Element by Marriott Seattle Downtown",
+          "key": "g60878-d33228406",
+          "accommodation_type": "Small Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d33228406-Reviews-Element_by_Marriott_Seattle_Downtown-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 3.8,
+            "count": 19
+          },
+          "geo": {
+            "latitude": 47.624958,
+            "longitude": -122.34457
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/35/0c/f6/a7/hotel-entryway-at-night.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Residence Inn by Marriott Seattle University District",
+          "key": "g60878-d7911232",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d7911232-Reviews-Residence_Inn_by_Marriott_Seattle_University_District-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.4,
+            "count": 216
+          },
+          "geo": {
+            "latitude": 47.66161,
+            "longitude": -122.31569
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/fd/5a/ed/exterior.jpg",
+          "mentions": [],
+          "merchandising_labels": [
+            "Breakfast included"
+          ]
+        },
+        {
+          "name": "Moxy Seattle Downtown",
+          "key": "g60878-d12864775",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d12864775-Reviews-Moxy_Seattle_Downtown-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 3.8,
+            "count": 230
+          },
+          "geo": {
+            "latitude": 47.62338,
+            "longitude": -122.33623
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/fe/cd/c2/lobby.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "SpringHill Suites by Marriott Seattle Downtown/South Lake Union",
+          "key": "g60878-d115754",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d115754-Reviews-SpringHill_Suites_by_Marriott_Seattle_Downtown_South_Lake_Union-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 3.9,
+            "count": 973
+          },
+          "geo": {
+            "latitude": 47.617813,
+            "longitude": -122.32982
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/35/0a/3a/41/exterior.jpg",
+          "mentions": [],
+          "merchandising_labels": [
+            "Breakfast included"
+          ]
+        },
+        {
+          "name": "Residence Inn by Marriott Seattle The District at Northgate",
+          "key": "g60878-d32978172",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d32978172-Reviews-Residence_Inn_by_Marriott_Seattle_The_District_at_Northgate-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.5,
+            "count": 12
+          },
+          "geo": {
+            "latitude": 47.70631,
+            "longitude": -122.32799
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/8b/cf/a7/caption.jpg",
+          "mentions": [],
+          "merchandising_labels": [
+            "Breakfast included"
+          ]
+        },
+        {
+          "name": "Quiet, Clean and Comfortable Room",
+          "key": "g60878-d13149827",
+          "accommodation_type": "Limited Service Property",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d13149827-Reviews-Quiet_Clean_and_Comfortable_Room-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.5,
+            "count": 10
+          },
+          "geo": {
+            "latitude": 47.71931,
+            "longitude": -122.32825
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2e/02/09/6e/bunk-bed.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Back To The Future Sweet Suites",
+          "key": "g60878-d28607282",
+          "accommodation_type": "Limited Service Property",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d28607282-Reviews-Back_To_The_Future_Sweet_Suites-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 1.3,
+            "count": 3
+          },
+          "geo": {
+            "latitude": 47.63292,
+            "longitude": -122.345604
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/32/dd/b9/96/back-to-the-future-sw.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Bobba Fett's Carbonite Suite",
+          "key": "g60878-d28623567",
+          "accommodation_type": "Limited Service Property",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d28623567-Reviews-Bobba_Fett_s_Carbonite_Suite-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 1,
+            "count": 1
+          },
+          "geo": {
+            "latitude": 47.64374,
+            "longitude": -122.36113
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/2e/0c/cd/bf/bobba-fett-s-carbonit.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Harry Potter Sweet Suites",
+          "key": "g60878-d28611360",
+          "accommodation_type": "Limited Service Property",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d28611360-Reviews-Harry_Potter_Sweet_Suites-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 0,
+            "count": 0
+          },
+          "geo": {
+            "latitude": 47.633034,
+            "longitude": -122.34549
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/31/fe/43/73/harry-potter-sweet-su.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Quest Travels",
+          "key": "g60878-d34391863",
+          "accommodation_type": "Limited Service Property",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d34391863-Reviews-Quest_Travels-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 0,
+            "count": 0
+          },
+          "geo": {
+            "latitude": 47.613518,
+            "longitude": -122.345215
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/33/8e/9c/5e/quest-travels.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "STAYOO SUITES - Seattle Secret Garden",
+          "key": "g60878-d34714095",
+          "accommodation_type": "Condominium",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d34714095-Reviews-STAYOO_SUITES_Seattle_Secret_Garden-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 0,
+            "count": 0
+          },
+          "geo": {
+            "latitude": 47.648422,
+            "longitude": -122.35703
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/35/10/ed/26/living-room.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Luke's Jedi Meditation Chamber",
+          "key": "g60878-d34388006",
+          "accommodation_type": "Limited Service Property",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d34388006-Reviews-Luke_s_Jedi_Meditation_Chamber-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 0,
+            "count": 0
+          },
+          "geo": {
+            "latitude": 47.643604,
+            "longitude": -122.363785
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/33/89/c8/ba/luke-s-jedi-meditatio.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Palpatine Sith Lord Suite",
+          "key": "g60878-d34385640",
+          "accommodation_type": "Small Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d34385640-Reviews-Palpatine_Sith_Lord_Suite-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 0,
+            "count": 0
+          },
+          "geo": {
+            "latitude": 47.64373,
+            "longitude": -122.36112
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/34/f9/ae/fc/palpatine-sith-lord-s.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Jabba's Palace",
+          "key": "g60878-d34387492",
+          "accommodation_type": "Limited Service Property",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d34387492-Reviews-Jabba_s_Palace-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 0,
+            "count": 0
+          },
+          "geo": {
+            "latitude": 47.64368,
+            "longitude": -122.36111
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/partner/bookingcom/photo-o/33/89/b6/30/jabba-s-palace.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Four Seasons Hotel Seattle",
+          "key": "g60878-d1152288",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d1152288-Reviews-Four_Seasons_Hotel_Seattle-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.7,
+            "count": 1976
+          },
+          "geo": {
+            "latitude": 47.60768,
+            "longitude": -122.3393
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9b/f1/9f/four-seasons-hotel-seattle.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Best Western Plus Pioneer Square Hotel Downtown",
+          "key": "g60878-d72572",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d72572-Reviews-Best_Western_Plus_Pioneer_Square_Hotel_Downtown-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.3,
+            "count": 2102
+          },
+          "geo": {
+            "latitude": 47.601555,
+            "longitude": -122.33527
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/34/1b/87/69/breakfast-area.jpg",
+          "mentions": [],
+          "merchandising_labels": [
+            "Breakfast included"
+          ]
+        },
+        {
+          "name": "Hampton Inn & Suites by Hilton Seattle/Northgate",
+          "key": "g60878-d10627376",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d10627376-Reviews-Hampton_Inn_Suites_by_Hilton_Seattle_Northgate-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.3,
+            "count": 553
+          },
+          "geo": {
+            "latitude": 47.699257,
+            "longitude": -122.32814
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/35/45/8a/da/caption.jpg",
+          "mentions": [],
+          "merchandising_labels": [
+            "Breakfast included"
+          ]
+        },
+        {
+          "name": "Arctic Club Hotel",
+          "key": "g60878-d677260",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d677260-Reviews-Arctic_Club_Hotel-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.5,
+            "count": 2953
+          },
+          "geo": {
+            "latitude": 47.60373,
+            "longitude": -122.33182
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/8f/97/16/caption.jpg",
+          "mentions": [],
+          "merchandising_labels": [
+            "Breakfast included"
+          ]
+        },
+        {
+          "name": "Inn at Virginia Mason",
+          "key": "g60878-d100538",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100538-Reviews-Inn_at_Virginia_Mason-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 3.5,
+            "count": 350
+          },
+          "geo": {
+            "latitude": 47.609997,
+            "longitude": -122.32687
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/83/a6/50/caption.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Staypineapple, University Inn, University District",
+          "key": "g60878-d100581",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100581-Reviews-Staypineapple_University_Inn_University_District-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.3,
+            "count": 1576
+          },
+          "geo": {
+            "latitude": 47.658165,
+            "longitude": -122.317474
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/1f/b6/fe/exterior-view.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "The Alexis Royal Sonesta Hotel Seattle",
+          "key": "g60878-d112412",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d112412-Reviews-The_Alexis_Royal_Sonesta_Hotel_Seattle-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.6,
+            "count": 2739
+          },
+          "geo": {
+            "latitude": 47.60481,
+            "longitude": -122.33685
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/b7/78/34/kimpton-alexis-hotel.jpg",
+          "mentions": [],
+          "merchandising_labels": [
+            "All inclusive"
+          ]
+        },
+        {
+          "name": "Staypineapple, Watertown, University District",
+          "key": "g60878-d252350",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d252350-Reviews-Staypineapple_Watertown_University_District-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.5,
+            "count": 2062
+          },
+          "geo": {
+            "latitude": 47.65941,
+            "longitude": -122.31758
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/1f/b4/a3/lobby-view.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Hotel Hotel",
+          "key": "g60878-d3440163",
+          "accommodation_type": "Hostel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d3440163-Reviews-Hotel_Hotel-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.3,
+            "count": 142
+          },
+          "geo": {
+            "latitude": 47.651207,
+            "longitude": -122.350136
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/3a/0f/b0/img-20180605-172358-largejpg.jpg",
+          "mentions": [],
+          "merchandising_labels": [
+            "Breakfast included"
+          ]
+        },
+        {
+          "name": "Hyatt At Olive 8",
+          "key": "g60878-d1200603",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d1200603-Reviews-Hyatt_At_Olive_8-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.5,
+            "count": 4125
+          },
+          "geo": {
+            "latitude": 47.6138,
+            "longitude": -122.33418
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/a3/d8/2a/exterior.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "The State Hotel",
+          "key": "g60878-d15458320",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d15458320-Reviews-The_State_Hotel-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.6,
+            "count": 517
+          },
+          "geo": {
+            "latitude": 47.609417,
+            "longitude": -122.33935
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/bc/53/1d/the-state-hotel-is-perfectly.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Hotel 1000 - The Unbound Collection by Hyatt",
+          "key": "g60878-d613399",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d613399-Reviews-Hotel_1000_The_Unbound_Collection_by_Hyatt-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.6,
+            "count": 794
+          },
+          "geo": {
+            "latitude": 47.605087,
+            "longitude": -122.33609
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/33/3a/f6/d0/hotel-1000-exterior.jpg",
+          "mentions": [],
+          "merchandising_labels": [
+            "All inclusive"
+          ]
+        },
+        {
+          "name": "Hotel Theodore Seattle Downtown, Tapestry by Hilton",
+          "key": "g60878-d100589",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d100589-Reviews-Hotel_Theodore_Seattle_Downtown_Tapestry_by_Hilton-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.6,
+            "count": 1060
+          },
+          "geo": {
+            "latitude": 47.612385,
+            "longitude": -122.334335
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/f0/ff/c1/hotel-theodore.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        },
+        {
+          "name": "Thompson Seattle, by Hyatt",
+          "key": "g60878-d10031096",
+          "accommodation_type": "Hotel",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g60878-d10031096-Reviews-Thompson_Seattle_by_Hyatt-Seattle_Washington.html",
+          "review_summary": {
+            "rating": 4.3,
+            "count": 2410
+          },
+          "geo": {
+            "latitude": 47.610577,
+            "longitude": -122.3412
+          },
+          "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/c2/7e/f3/the-nest.jpg",
+          "mentions": [],
+          "merchandising_labels": []
+        }
+      ]
+    },
+    "timestamp": 1795839521659
+  }
+}

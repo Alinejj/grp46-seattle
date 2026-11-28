@@ -1,0 +1,50 @@
+{
+  "retrieved_at": "2026-11-28T04:18:44.329984+00:00",
+  "url": "https://data.xotelo.com/api/rates",
+  "params": {
+    "chk_in": "2026-12-27",
+    "chk_out": "2026-12-30",
+    "hotel_key": "g60878-d258824"
+  },
+  "data": {
+    "error": null,
+    "result": {
+      "chk_in": "2026-12-27",
+      "chk_out": "2026-12-30",
+      "currency": "USD",
+      "rates": [
+        {
+          "code": "BookingCom",
+          "name": "Booking.com",
+          "rate": 126,
+          "tax": null
+        },
+        {
+          "code": "Agoda",
+          "name": "Agoda.com",
+          "rate": 86,
+          "tax": null
+        },
+        {
+          "code": "Vio",
+          "name": "Vio.com",
+          "rate": 110,
+          "tax": null
+        },
+        {
+          "code": "MyHotelShopWIHP",
+          "name": "Hotel Website",
+          "rate": 123,
+          "tax": null
+        },
+        {
+          "code": "CtripTA",
+          "name": "Trip.com",
+          "rate": 119,
+          "tax": null
+        }
+      ]
+    },
+    "timestamp": 1795839522964
+  }
+}
