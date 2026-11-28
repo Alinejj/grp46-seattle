@@ -1,0 +1,197 @@
+{
+  "retrieved_at": "2026-11-28T04:15:31.555418+00:00",
+  "url": "https://data.seattle.gov/resource/tazs-3rd5.json",
+  "params": {
+    "$group": "neighborhood",
+    "$limit": 500,
+    "$select": "neighborhood"
+  },
+  "data": [
+    {
+      "neighborhood": "-"
+    },
+    {
+      "neighborhood": "ALASKA JUNCTION"
+    },
+    {
+      "neighborhood": "ALKI"
+    },
+    {
+      "neighborhood": "BALLARD NORTH"
+    },
+    {
+      "neighborhood": "BALLARD SOUTH"
+    },
+    {
+      "neighborhood": "BELLTOWN"
+    },
+    {
+      "neighborhood": "BITTERLAKE"
+    },
+    {
+      "neighborhood": "BRIGHTON/DUNLAP"
+    },
+    {
+      "neighborhood": "CAPITOL HILL"
+    },
+    {
+      "neighborhood": "CENTRAL AREA/SQUIRE PARK"
+    },
+    {
+      "neighborhood": "CHINATOWN/INTERNATIONAL DISTRICT"
+    },
+    {
+      "neighborhood": "CLAREMONT/RAINIER VISTA"
+    },
+    {
+      "neighborhood": "COLUMBIA CITY"
+    },
+    {
+      "neighborhood": "COMMERCIAL DUWAMISH"
+    },
+    {
+      "neighborhood": "COMMERCIAL HARBOR ISLAND"
+    },
+    {
+      "neighborhood": "DOWNTOWN COMMERCIAL"
+    },
+    {
+      "neighborhood": "EASTLAKE - EAST"
+    },
+    {
+      "neighborhood": "EASTLAKE - WEST"
+    },
+    {
+      "neighborhood": "FAUNTLEROY SW"
+    },
+    {
+      "neighborhood": "FIRST HILL"
+    },
+    {
+      "neighborhood": "FK ERROR"
+    },
+    {
+      "neighborhood": "FREMONT"
+    },
+    {
+      "neighborhood": "GENESEE"
+    },
+    {
+      "neighborhood": "GEORGETOWN"
+    },
+    {
+      "neighborhood": "GREENWOOD"
+    },
+    {
+      "neighborhood": "HIGHLAND PARK"
+    },
+    {
+      "neighborhood": "HIGH POINT"
+    },
+    {
+      "neighborhood": "HILLMAN CITY"
+    },
+    {
+      "neighborhood": "JUDKINS PARK/NORTH BEACON HILL"
+    },
+    {
+      "neighborhood": "LAKECITY"
+    },
+    {
+      "neighborhood": "LAKEWOOD/SEWARD PARK"
+    },
+    {
+      "neighborhood": "MADISON PARK"
+    },
+    {
+      "neighborhood": "MADRONA/LESCHI"
+    },
+    {
+      "neighborhood": "MAGNOLIA"
+    },
+    {
+      "neighborhood": "MID BEACON HILL"
+    },
+    {
+      "neighborhood": "MILLER PARK"
+    },
+    {
+      "neighborhood": "MONTLAKE/PORTAGE BAY"
+    },
+    {
+      "neighborhood": "MORGAN"
+    },
+    {
+      "neighborhood": "MOUNT BAKER"
+    },
+    {
+      "neighborhood": "NEW HOLLY"
+    },
+    {
+      "neighborhood": "NORTH ADMIRAL"
+    },
+    {
+      "neighborhood": "NORTH BEACON HILL"
+    },
+    {
+      "neighborhood": "NORTH DELRIDGE"
+    },
+    {
+      "neighborhood": "NORTHGATE"
+    },
+    {
+      "neighborhood": "OOJ"
+    },
+    {
+      "neighborhood": "PHINNEY RIDGE"
+    },
+    {
+      "neighborhood": "PIGEON POINT"
+    },
+    {
+      "neighborhood": "PIONEER SQUARE"
+    },
+    {
+      "neighborhood": "QUEEN ANNE"
+    },
+    {
+      "neighborhood": "RAINIER BEACH"
+    },
+    {
+      "neighborhood": "RAINIER VIEW"
+    },
+    {
+      "neighborhood": "ROOSEVELT/RAVENNA"
+    },
+    {
+      "neighborhood": "ROXHILL/WESTWOOD/ARBOR HEIGHTS"
+    },
+    {
+      "neighborhood": "SANDPOINT"
+    },
+    {
+      "neighborhood": "SLU/CASCADE"
+    },
+    {
+      "neighborhood": "SODO"
+    },
+    {
+      "neighborhood": "SOUTH BEACON HILL"
+    },
+    {
+      "neighborhood": "SOUTH DELRIDGE"
+    },
+    {
+      "neighborhood": "SOUTH PARK"
+    },
+    {
+      "neighborhood": "UNIVERSITY"
+    },
+    {
+      "neighborhood": "UNKNOWN"
+    },
+    {
+      "neighborhood": "WALLINGFORD"
+    }
+  ]
+}
